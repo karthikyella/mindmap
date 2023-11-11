@@ -1,0 +1,213 @@
+{
+    "items": [
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Key Vault is a managed service and Microsoft will handle the failover if a region goes down.",
+            "waf": "Reliability",
+            "guid": "7ba4d380-7b9e-4a8b-a0c3-2d8e49c11872",
+            "id": "02.02.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "You don't have to think about it because it's a managed service.",
+            "waf": "Reliability",
+            "guid": "4f2b44a8-4a41-4e0b-8d28-3ec3ea04e9ae",
+            "id": "02.02.01.01",
+            "cost": 1,
+            "severity": "Low",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "The contents of your key vault are replicated within the region and to a secondary region at least 150 miles away, but within the same geography to maintain high durability of your keys and secrets.",
+            "waf": "Reliability",
+            "guid": "17fb86a2-eb45-42a4-9c34-52b92a2a1842",
+            "id": "02.02.01.02",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "During failover, a customer cannot change access policy or firewall configurations and settings. The vault is read-only during this time.",
+            "waf": "Reliability",
+            "guid": "614682ca-6e0c-4f34-9f03-c6d3f2b99a32",
+            "id": "02.02.01.03",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Please note: there is no manual-failover.",
+            "waf": "Reliability",
+            "guid": "66eac594-05c0-4b54-96ef-0d42a0b8a6e7",
+            "id": "02.02.02",
+            "cost": 1,
+            "severity": "Low",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "When you back up a key vault object, such as a secret, key, or certificate, the backup operation will download the object as an encrypted blob. This blob can't be decrypted outside of Azure. To get usable data from this blob, you must restore the blob into a key vault within the same Azure subscription and Azure geography.",
+            "waf": "Reliability",
+            "guid": "9ef2b0d2-3206-4c94-b47a-4f07e6a1c509",
+            "id": "02.02.03",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Leverage Soft Deletes",
+            "waf": "Reliability",
+            "guid": "2df045b1-c0f6-47d3-9a9b-99cf6999684e",
+            "id": "02.02.04",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Soft-delete retention period",
+            "waf": "Reliability",
+            "guid": "a0b230bf-9b04-4467-a49c-1b4e5fecd212",
+            "id": "02.02.04.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Soft-deleted resources are retained for a set period of time, 90 days.",
+            "waf": "Reliability",
+            "guid": "cbfa96b0-5249-4e6f-947c-d0e79509708c",
+            "id": "02.02.04.01.01",
+            "cost": 1,
+            "severity": "Low",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Purge protection",
+            "waf": "Reliability",
+            "guid": "4a7cc066-409f-4c7a-8c69-ee8784c66f63",
+            "id": "02.02.05",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Purge protection is an optional Key Vault behavior and is not enabled by default. Purge protection can only be enabled once soft-delete is enabled. It can be turned on via CLI or PowerShell.",
+            "waf": "Reliability",
+            "guid": "0f15640b-31e5-4de6-85a7-d2c652fa09d3",
+            "id": "02.02.05.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Backup and restore objects",
+            "waf": "Reliability",
+            "guid": "be8770fc-5d13-4c51-b7da-1cc1d6df90aa",
+            "id": "02.02.06",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Limitations",
+            "waf": "Reliability",
+            "guid": "ce378d9b-2a4c-46f9-9647-76b2e5d1d63d",
+            "id": "02.02.06.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Key Vault does not support the ability to backup more than 500 past versions of a key, secret, or certificate object. Attempting to backup a key, secret, or certificate object may result in an error. It is not possible to delete previous versions of a key, secret, or certificate.",
+            "waf": "Reliability",
+            "guid": "e8659d11-7e02-4db0-848c-c6541dbab68c",
+            "id": "02.02.06.01.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Key Vault doesn't currently provide a way to back up an entire key vault in a single operation. Any attempt to use the commands listed in this document to do an automated backup of a key vault may result in errors and won't be supported by Microsoft or the Azure Key Vault team.",
+            "waf": "Reliability",
+            "guid": "45c25e29-d0ef-4f07-aa04-0f8c64cbcc04",
+            "id": "02.02.06.01.02",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "Architectural Design Considerations",
+            "waf": "Reliability",
+            "guid": "3ea8e3c7-ebef-4c65-8740-1ac2d7d801ea",
+            "id": "02.02.07",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "There is no syncing keys and secrets to another Key Vault.",
+            "waf": "Reliability",
+            "guid": "f8eb3a5d-462d-4615-b186-59ebcc20ab7b",
+            "id": "02.02.07.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "So if you want to maintain two key vaults in-sync you will have to use change management to make sure the keys are created in both key vaults.",
+            "waf": "Reliability",
+            "guid": "a491c55f-0153-4564-9d1e-cbb0f11d5d4d",
+            "id": "02.02.07.01.01",
+            "cost": 1,
+            "severity": "Low",
+            "link": ""
+        },
+        {
+            "category": "Security",
+            "subcategory": "Key Vault",
+            "text": "We generally recommend having different keys between regions, so a global outage when a single key is corrupted does not happen.",
+            "waf": "Reliability",
+            "guid": "6d37a33b-531c-4a91-871a-b69d8044f04e",
+            "id": "02.02.07.02",
+            "cost": 1,
+            "severity": "Medium",
+            "link": ""
+        }
+    ]
+}

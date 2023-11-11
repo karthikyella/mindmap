@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+            "category": "Application Deployment",
+            "subcategory": "Development",
+            "text": "Use canary or blue/green deployments",
+            "waf": "Operations",
+            "guid": "785c2fa5-5b56-4ad4-a408-fe72734c476b",
+            "id": "01.01.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks"
+        },
+        {
+            "category": "Application Deployment",
+            "subcategory": "Development",
+            "text": "If required for AKS Windows workloads HostProcess containers can be used",
+            "waf": "Reliability",
+            "guid": "ab5351f6-383a-45ed-9c5e-b143b16db40a",
+            "id": "01.01.02",
+            "cost": 1,
+            "severity": "Low",
+            "link": "https://learn.microsoft.com/azure/aks/use-windows-hpc"
+        }
+    ]
+}

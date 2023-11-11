@@ -1,0 +1,147 @@
+{
+    "items": [
+        {
+            "category": "Management",
+            "subcategory": "Availability Zones",
+            "text": "Leverage Availability Zones where regionally applicable",
+            "waf": "Reliability",
+            "guid": "41faa1ed-b7f0-447d-8cba-4a4905e5bb83",
+            "id": "01.01.01",
+            "cost": 1,
+            "severity": "High",
+            "link": "https://learn.microsoft.com/en-us/azure/reliability/migrate-api-mgt"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Premium Tier",
+            "text": "Use the premium tier for production workloads.",
+            "waf": "Reliability",
+            "guid": "1fe8db45-a017-4888-8c4d-4422583cfae0",
+            "id": "01.01.02",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/upgrade-and-scale#upgrade-and-scale"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Capacity Management",
+            "text": "Run APIM with capacity greater than 1",
+            "waf": "Reliability",
+            "guid": "44dc5f2b-a032-4d03-aae8-90c3f2c0a4c3",
+            "id": "01.01.03",
+            "cost": 1,
+            "severity": "High",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/api-management-capacity#use-capacity-for-scaling-decisions"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Disaster Recovery",
+            "text": "For DR, leverage the premium tier with deployments scaled across two or more regions for 99.99% SLA",
+            "waf": "Reliability",
+            "guid": "f8ea8e91-3b84-40e1-bb58-ff3edc12faa6",
+            "id": "01.01.04",
+            "cost": 1,
+            "severity": "High",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/upgrade-and-scale#upgrade-and-scale"
+        },
+        {
+            "category": "Platform automation and DevOps",
+            "subcategory": "DevOps Integration",
+            "text": "Managing the APIM APIs from DevOps",
+            "waf": "Reliability",
+            "guid": "cd0730f0-0ff1-4b77-9a2b-2a1f7dd5e291",
+            "id": "01.01.05",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/devops-api-development-templates"
+        },
+        {
+            "category": "Platform automation and DevOps",
+            "subcategory": "Backup Benefits",
+            "text": "Why you want to do this you don't have to worry about backing and restoring your APIs by leveraging DevOPs or GitHub",
+            "waf": "Reliability",
+            "guid": "3c964882-aec9-4d44-9f68-4b5f2efbbdb6",
+            "id": "01.01.06",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/devops-api-development-templates"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Self-Hosted Gateways",
+            "text": "If using Self-Hosted Gateways",
+            "waf": "Reliability",
+            "guid": "639bcf6d-2fbc-4574-a497-473ef81c1ba1",
+            "id": "01.01.07",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Gateway Scalability",
+            "text": "The scalability is connected to how you manage and host your self-hosted gateway on premise",
+            "waf": "Reliability",
+            "guid": "a6c5467b-1c32-41d2-92f4-4e1c8e5a0d3e",
+            "id": "01.01.08",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Self-Hosted Responsibility",
+            "text": "Its your responsibility to manage the scalability",
+            "waf": "Reliability",
+            "guid": "10f58602-f0f9-4d77-972a-956f6e0f2600",
+            "id": "01.01.09",
+            "cost": 1,
+            "severity": "High",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/self-hosted-gateway-overview"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Resource Limits",
+            "text": "Be aware of your limits",
+            "waf": "Reliability",
+            "guid": "46f07d33-ef9a-44e8-8f98-67c097c5d8cd",
+            "id": "01.01.10",
+            "cost": 1,
+            "severity": "High",
+            "link": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#api-management-limits"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Failover and Caching",
+            "text": "Use Policies to add a fail-over backend URL and caching to reduce failing calls.",
+            "waf": "Reliability",
+            "guid": "43e60b94-7bca-43a2-aadf-efb04d63a485",
+            "id": "01.01.11",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Multi-Region Deployment",
+            "text": "Leverage multi-region deployment of API gateways(available only in premium tiers). APIM routes the requests to a regional gateway based on the lowest latency. You could use your own Traffic Manager with custom routing rules.",
+            "waf": "Reliability",
+            "guid": "8d9b953c-cc0d-42c6-8e4f-24ef372e63c5",
+            "id": "01.01.12",
+            "cost": 1,
+            "severity": "High",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/"
+        },
+        {
+            "category": "Management",
+            "subcategory": "Request Routing",
+            "text": "In multi-region model, use Policies to route the requests to regional backends based on availability or latency.",
+            "waf": "Reliability",
+            "guid": "1b8d68a4-66cd-44d5-ba94-3ee94440e8d6",
+            "id": "01.01.13",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/en-us/azure/api-management/"
+        }
+    ]
+}

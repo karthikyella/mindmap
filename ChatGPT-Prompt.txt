@@ -1,0 +1,60 @@
+Can you help me parse a document and create a JSON file?
+
+I will provide you the content of the document to parse shortly. Here are the instructions to follow. 
+	• For category field, pick any one of the six Azure Cloud Adoption Framework pillar values between "Identity and access management" or "Network topology and connectivity" or "Security" or "Management" or "Governance" or "Platform automation and DevOps" based on the content provided.
+	• For subcategory field, use the section value that the content are grouped under.
+	• Besides using Section value as subcategory, use that as a recommendation as long as there is a link provided.
+	• For text field, use the content I provided.
+	• For waf field, use constant value of "Reliability".
+	• For guid field, you can create a real GUID value, instead of illustrative values.
+	• For id field, you can create a unique value following the pattern I've given below.
+	• For cost field, use constant value of 1.
+	• For severity field, feel free to pick a value on your own between High, Medium and Low based on the content I provided. 
+	• For link field, use the document link if its available in the document I provide. 
+	
+Please do not cut similar entries, generate complete JSON for the entire document below. 
+Here is the sample JSON file template that you need to produce.
+
+{
+    "items": [
+        {
+            "category": "Application Deployment",
+            "subcategory": "Development",
+            "text": "Use canary or blue/green deployments",
+            "waf": "Operations",
+            "guid": "785c2fa5-5b56-4ad4-a408-fe72734c476b",
+            "id": "01.01.01",
+            "cost": 1,
+            "severity": "Medium",
+            "link": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks"
+        },
+        {
+            "category": "Application Deployment",
+            "subcategory": "Development",
+            "text": "If required for AKS Windows workloads HostProcess containers can be used",
+            "waf": "Reliability",
+            "guid": "ab5351f6-383a-45ed-9c5e-b143b16db40a",
+            "id": "01.01.02",
+            "cost": 1,
+            "severity": "Low",
+            "link": "https://learn.microsoft.com/azure/aks/use-windows-hpc"
+        }
+    ]
+}
+
+****************************************************************************
+// Paste the one of the service content from the word document
+
+****************************************************************************
+
+// if it doesn't generate full JSON document then use the following prompt
+This looks great, can you generate full JSON?
+
+****************************************************************************
+
+// if the content you are pasting from the doc is large (for example VM) then ChatGPT will fail to generate the JSON. In that case use the following prompt
+// Based on this prompt it will generate only 10 entries at a time.
+Following document is a huge content, it will be a huge JSON output, so generate only 10 entries at a time and check before proceeding. 
+
+// when you are get 10 entries successfully, use the following prompt
+This looks great, continue generating next batch.

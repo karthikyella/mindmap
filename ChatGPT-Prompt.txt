@@ -7,8 +7,6 @@ I will provide you the content of the document to parse shortly. Here are the in
 	• For text field, use the content I provided.
 	• For waf field, use constant value of "Reliability".
 	• For guid field, you can create a real GUID value, instead of illustrative values.
-	• For id field, you can create a unique value following the pattern I've given below.
-	• For cost field, use constant value of 1.
 	• For severity field, feel free to pick a value on your own between High, Medium and Low based on the content I provided. 
 	• For link field, use the document link if its available in the document I provide. 
 	
@@ -23,8 +21,6 @@ Here is the sample JSON file template that you need to produce.
             "text": "Use canary or blue/green deployments",
             "waf": "Operations",
             "guid": "785c2fa5-5b56-4ad4-a408-fe72734c476b",
-            "id": "01.01.01",
-            "cost": 1,
             "severity": "Medium",
             "link": "https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks/secure-baseline-aks"
         },
@@ -34,8 +30,6 @@ Here is the sample JSON file template that you need to produce.
             "text": "If required for AKS Windows workloads HostProcess containers can be used",
             "waf": "Reliability",
             "guid": "ab5351f6-383a-45ed-9c5e-b143b16db40a",
-            "id": "01.01.02",
-            "cost": 1,
             "severity": "Low",
             "link": "https://learn.microsoft.com/azure/aks/use-windows-hpc"
         }

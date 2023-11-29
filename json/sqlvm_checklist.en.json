@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "category": "Backup",
+      "subcategory": "&nbsp",
+      "text": "Azure Backup Service ",
+      "description": "Take a backup of the database and save it ",
+      "waf": "Reliability",
+      "guid": "9cdc16ac-c076-4ef9-a141-a8989579e76b",
+      "id": "48.0.1",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-enterprise-agreement#design-considerations"
+    },
+    {
+      "category": "Infrastructure",
+      "subcategory": "&nbsp",
+      "text": "Availablity Groups ",
+      "waf": "Reliability",
+      "guid": "897e710a-7da7-4be9-a66e-15d3c4ada97c",
+      "id": "48.0.2",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-microsoft-customer-agreement#design-recommendations"
+    },
+    {
+      "category": "Extensions",
+      "subcategory": "&nbsp",
+      "text": "SQL IAAS Extension",
+      "waf": "Reliability",
+      "guid": "c3d1325a-b225-4c6f-9e16-85fdddea8a4b",
+      "id": "48.0.3",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/cost-management-billing/manage/mca-section-invoice"
+    },
+    {
+      "category": "Infrastructure",
+      "subcategory": "&nbsp",
+      "text": "Leverage Premium Disks",
+      "waf": "Reliability",
+      "guid": "8defc5d7-21d4-41d2-900b-707ae9eab40f",
+      "id": "48.0.4",
+      "severity": "Medium",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-microsoft-customer-agreement#design-recommendations"
+    }
+  ],
+  "categories": [
+  ],
+  "waf": [
+    {
+      "name": "Reliability"
+    },
+    {
+      "name": "Security"
+    },
+    {
+      "name": "Cost"
+    },
+    {
+      "name": "Operations"
+    },
+    {
+      "name": "Performance"
+    }
+  ],
+  "yesno": [
+    {
+      "name": "Yes"
+    },
+    {
+      "name": "No"
+    }
+  ],
+  "status": [
+    {
+      "name": "Not verified",
+      "description": "This check has not been looked at yet"
+    },
+    {
+      "name": "Open",
+      "description": "There is an action item associated to this check"
+    },
+    {
+      "name": "Fulfilled",
+      "description": "This check has been verified, and there are no further action items associated to it"
+    },
+    {
+      "name": "Not required",
+      "description": "Recommendation understood, but not needed by current requirements"
+    },
+    {
+      "name": "N/A",
+      "description": "Not applicable for current design"
+    }
+  ],
+  "severities": [
+    {
+      "name": "High"
+    },
+    {
+      "name": "Medium"
+    },
+    {
+      "name": "Low"
+    }
+  ],
+  "metadata": {
+    "name": "Use the 'Import latest checklist' button to get the latest version of a review checklist",
+    "state": "&nbsp",
+    "timestamp": "11/29/2023 14:19:05"
+  }
+}
+

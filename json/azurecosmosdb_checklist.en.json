@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "category": "Best Practices",
+      "subcategory": "Best Pratices",
+      "text": "FTA Resiliency Playbook",
+      "waf": "Reliability",
+      "guid": "bd7aaf12-e6b9-44ee-9ef4-3d2992581718",
+      "id": "45.1",
+      "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/pass-foundations-playbooks-CosmosDB_v1.docx"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Availablity Zones",
+      "text": "Leverage Availablity Zones where regionally applicable and ofcourse if the service offers it",
+      "waf": "Reliability",
+      "guid": "d6d1f507-2576-49e3-9690-e7824ac93221",
+      "id": "45.2",
+      "link": "https://learn.microsoft.com/azure/cosmos-db/high-availability#replica-outages"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Run multiple replicas of the database (>1 ) in Prod",
+      "waf": "Reliability",
+      "guid": "3d0370f4-22f7-4199-9063-15833ee79d6c",
+      "id": "45.3",
+      "link": "https://learn.microsoft.com/azure/cosmos-db/high-availability#replica-outages"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Leverage Multi-Region Writes",
+      "description": "Multi-region writes capability allows you to take advantage of the provisioned throughput for your databases and containers across the globe",
+      "waf": "Reliability",
+      "guid": "6d363206-5b7a-4cae-94ab-d5f8d79e2e86",
+      "id": "45.4"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Distribute your data globally",
+      "description": "Span Cosmos account across two or more regions with multi-region writes",
+      "waf": "Reliability",
+      "guid": "768313c5-1567-45c5-ba85-b859c874f8e3",
+      "id": "45.5",
+      "link": "https://learn.microsoft.com/azure/cosmos-db/high-availability#slas"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Choose from several well-defined consistency models",
+      "description": "Choose from various consistency levels such as Eventual, Consistent Prefix, Session, Bounded Staleness and strong",
+      "waf": "Reliability",
+      "guid": "71724b87-5aa1-47f1-8349-f0364d28e42e",
+      "id": "45.6",
+      "link": "https://learn.microsoft.com/azure/cosmos-db/consistency-levels"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Failover",
+      "text": "Enable Service managed failover",
+      "description": "Maintain business continuity during regional outages. Azure Cosmos DB supports service-managed failover during a regional outage. During a regional outage, Azure Cosmos DB continues to maintain its latency, availability, consistency, and throughput SLAs. To help make sure that your entire application is highly available, Azure Cosmos DB offers a manual failover API to simulate a regional outage. By using this API, you can carry out regular business continuity drills.",
+      "waf": "Reliability",
+      "guid": "9bbbc868-265a-4bc9-864e-9a19ae28c85c",
+      "id": "45.7"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Backup Strategy",
+      "text": "Enable Automatic Backups",
+      "description": "Azure Cosmos DB automatically takes backups of your data at regular intervals. The automatic backups are taken without affecting the performance or availability of the database operations. All the backups are stored separately in a storage service.",
+      "waf": "Reliability",
+      "guid": "43c6b781-8ca0-4e6c-9214-9d514b933d35",
+      "id": "45.8",
+      "training": "https://learn.microsoft.com/learn/modules/explore-basic-services-identity-types/",
+      "link": "https://learn.microsoft.com/azure/active-directory/roles/security-planning#identify-microsoft-accounts-in-administrative-roles-that-need-to-be-switched-to-work-or-school-accounts"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Backup Strategy",
+      "text": "Periodic Backups",
+      "description": "This mode is the default backup mode for all existing accounts. In this mode, backup is taken at a periodic interval and the data is restored by creating a request with the support team. In this mode, you configure a backup interval and retention for your account. The maximum retention period extends to a month. The minimum backup interval can be one hour.",
+      "waf": "Reliability",
+      "guid": "74d11129-bd7a-4af1-8e6b-94ee5ef43d29",
+      "id": "45.9",
+      "training": "https://learn.microsoft.com/learn/paths/manage-identity-and-access/",
+      "link": "https://learn.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Backup Strategy",
+      "text": "Continous Backup with point-in-time restore in Azure Cosmos DB",
+      "description": "Continous 7 day retention and 30 day retention backups. Azure Cosmos DB performs data backup in the background without consuming any extra provisioned throughput (RUs) or affecting the performance and availability of your database. Continuous backups are taken in every region where the account exists.",
+      "waf": "Reliability",
+      "guid": "92581718-d6d1-4f50-9257-69e35690e782",
+      "id": "45.1",
+      "training": "https://learn.microsoft.com/learn/modules/create-custom-azure-roles-with-rbac/",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/identity-access#prerequisites-for-a-landing-zone---design-recommendations"
+    }
+  ]
+ }
+

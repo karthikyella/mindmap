@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "category": "Best Practice",
+      "subcategory": "Best Practices",
+      "text": "FTA Resiliency Playbook",
+      "waf": "Reliability",
+      "guid": "a13f9887-9468-4d66-a786-d60f96c97be9",
+      "id": "44.1",
+      "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-ADF_v1.docx"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Availablity Zone",
+      "text": "Use zone redundant pipelines in regions that support Availability Zones",
+      "waf": "Reliability",
+      "guid": "5119bf8e-8f58-4542-a7d9-cdc166cc072a",
+      "id": "44.2",
+      "link": "https://learn.microsoft.com/azure/architecture/example-scenario/analytics/pipelines-disaster-recovery"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "DevOps Integration",
+      "text": "Github/Azure DevOps integration ",
+      "description": "Use DevOps to Backup the ARM templates",
+      "waf": "Reliability",
+      "guid": "f9b141a8-9895-435e-9378-97e71ba7da7b",
+      "id": "44.3",
+      "link": "https://learn.microsoft.com/azure/data-factory/source-control"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Network",
+      "text": "Self Hosted Integration Runtime",
+      "description": "Make sure you replicate the SHIR VMs in another region ",
+      "waf": "Reliability",
+      "guid": "e9962a15-9384-46da-a7cc-3913256b2258",
+      "id": "44.4"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Network",
+      "text": "Network",
+      "description": "Make sure you replicate or duplicate your network in the sister region. You have to make a copy of your Vnet in another region",
+      "waf": "Reliability",
+      "guid": "6f4a1641-bddd-4ea8-a477-cdeb4861bc3b",
+      "id": "44.5"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Integration",
+      "text": "KeyVault",
+      "description": "If your ADF Pipelines use Key Vault you don't have to do anything to replicate Key Vault. Key Vault is a managed service and Microsoft takes care of it for you",
+      "waf": "Reliability",
+      "guid": "c14aea6e-65d8-4d9a-9aec-218e6436b073",
+      "id": "44.6",
+      "link": "https://learn.microsoft.com/azure/key-vault/general/disaster-recovery-guidance"
+    }
+  ]
+}
+

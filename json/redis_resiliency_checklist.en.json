@@ -7,6 +7,7 @@
       "waf": "Reliability",
       "guid": "65285269-440b-44be-9d3e-0844276d4bdc",
       "id": "A01.01",
+      "service": "Redis",
       "link": "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-how-to-zone-redundancy"
     },
     {
@@ -14,6 +15,7 @@
       "subcategory": "&nbsp",
       "text": "Because your cache data is stored in memory, a rare and unplanned failure of multiple nodes can cause all the data to be dropped. To avoid losing data completely, Redis persistence allows you to take periodic snapshots of in-memory data, and store it to your storage account.",
       "waf": "Reliability",
+      "service": "Redis",
       "guid": "bc178bdc-5a06-4ca7-8443-51e19dd34429",
       "id": "B01.01",
       "link": "https://learn.microsoft.com/azure/azure-cache-for-redis/cache-how-to-premium-persistence?tabs=premium"
@@ -21,6 +23,7 @@
     {
       "category": "Persistence",
       "subcategory": "&nbsp",
+      "service": "Redis",
       "text": "Use Geo-redundant storage account to persist Azure Cache for Redis data, or zonally redundant where geo-redundancy is not available",
       "waf": "Reliability",
       "guid": "eb722823-7a15-41c5-ab4e-4f1814387e5c",
@@ -30,6 +33,7 @@
     {
       "category": "Geo-replication",
       "subcategory": "&nbsp",
+      "service": "Redis",
       "text": "Geo-replication is a mechanism for linking two or more Azure Cache for Redis instances, typically spanning two Azure regions. Geo-replication is designed mainly for cross-region disaster recovery. Two Premium tier cache instances are connected through geo-replication in a way that provides reads and writes to your primary cache, and that data is replicated to the secondary cache.",
       "waf": "Reliability",
       "guid": "a8c26c9b-32ab-45bd-bc69-98a135e33789",

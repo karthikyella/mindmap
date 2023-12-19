@@ -109,6 +109,7 @@
   "metadata": {
     "name": "Redis Resiliency checklist",
     "state": "Preview",
+    "waf": "Reliability",
     "timestamp": "12/18/2023 13:18:45"
   }
 }

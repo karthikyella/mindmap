@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "category": "Best Practice",
+      "subcategory": "&nbsp",
+      "text": "Power BI is fully managed software as a service (SaaS)",
+      "waf": "Reliability",
+      "guid": "f7f31628-3787-4b05-97a2-09946bea5333",
+      "id": "42.1"
+    },
+    {
+      "category": "Best Practice",
+      "subcategory": "&nbsp",
+      "text": "Power BI maintains multiple instances of each component in Azure datacenters (also known as regions) to guarantee business continuity. If there's an outage, or Power BI becomes inaccessible or inoperable in a region, Power BI fails all its components in that region to a backup instance. The failover restores availability and operability to the Power BI service instance in a new region usually within the same geographic location.",
+      "waf": "Reliability",
+      "guid": "40249216-3419-42ba-9285-26944118be8d",
+      "id": "42.2"
+    },
+    {
+      "category": "Best Practice",
+      "subcategory": "&nbsp",
+      "text": "Source control your PBIT/PBIX files",
+      "waf": "Reliability",
+      "guid": "7e484427-6d8b-4dc0-95cc-f71ae9a13098",
+      "id": "42.3"
+    },
+    {
+      "category": "Best Practice",
+      "subcategory": "&nbsp",
+      "text": "Resiliency",
+      "waf": "Reliability",
+      "guid": "889535e6-2789-46d7-8ba7-ca7be9951914",
+      "id": "42.4"
+    }
+  ]
+}
+

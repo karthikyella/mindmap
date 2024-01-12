@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "category": "High Availablity ",
+      "subcategory": "Handbook",
+      "text": "Leverage FTA Resiliency  Handbook",
+      "waf": "Reliability",
+      "guid": "1fb2fc14-eea6-4e59-b8d9-a2edc218e686",
+      "id": "41.1",
+      "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-stream_analytics_v1.docx"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "SLA",
+      "text": "High Availability 99% SLA",
+      "description": "Azure Stream Analytics provides high availability (99.9% SLA) for jobs and clusters within a region, the details of which are transparent to the end customer. If failures occur within the service, per the documentation �Azure Stream Analytics guarantees exactly once event processing and at-least-once delivery of events, so events are never lost.�",
+      "waf": "Reliability",
+      "guid": "348ef254-c27d-432e-abba-c7571559ab91",
+      "id": "41.2"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Redundancy",
+      "text": "Achieve Geo-Redundancy",
+      "description": "Azure Stream Analytics resources (jobs, clusters, etc.) are regional and do not provide automatic geo-failover. However, you can achieve geo-redundancy by deploying identical Stream Analytics jobs in multiple Azure regions. Each job connects to local input and output sources. It is the responsibility of your application to both send input data into the two regional inputs and reconcile between the two regional outputs.",
+      "waf": "Reliability",
+      "guid": "20b56c57-bd58-4519-8f83-835c586bb281",
+      "id": "41.3"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Redundancy",
+      "text": "Active/Active Approach",
+      "waf": "Reliability",
+      "guid": "dc15a1c0-75ee-49f1-90ac-ccd579376bcd",
+      "id": "41.4"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Redundancy",
+      "text": "Active Passive Approach",
+      "description": "As an alternative to this duplicate-processing approach, the ASA job in the secondary region could be passive (stopped), and the output database geo-replicated to the secondary region. On region failure, the database would failover, and the secondary ASA job would be started using the CustomTime start mode to resume processing from before the outage began. While this approach lowers cost, it has the downside of increased recovery time due to database failover.",
+      "waf": "Reliability",
+      "guid": "a3750ab2-ab0e-49d6-9d14-d3c4929db1b3",
+      "id": "41.5"
+    }
+  ]
+}
+

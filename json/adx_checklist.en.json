@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Leverage External Tables and Continuous data export overview to reduce costs",
+      "description": "Using the correct approach to feed a datalake with cold data and having the Kusto query engine at your disposal at the same time, as in the short-term storage",
+      "waf": "Reliability",
+      "guid": "0eb2eb03-dda6-4e59-b7c8-a2edb117d576",
+      "id": "43.1",
+      "link": "https://riccardo-zamana.medium.com/adx-data-explorer-how-to-develop-a-continuous-data-lake-feed-maintaining-a-query-engine-loopback-96bba7c29a4a"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Leader-follower cluster configuration",
+      "description": "Azure Data Explorer provides an optional follower capability for a leader cluster to be followed by other follower clusters for read-only access to the leader's data and metadata. Changes in the leader, such as create, append, and drop are automatically synchronized to the follower. While the leaders could span Azure regions, the follower clusters should be hosted in the same region(s) as the leader. If the leader cluster is down or databases or tables are accidentally dropped, the follower clusters will lose access until access is recovered in the leader.",
+      "waf": "Reliability",
+      "guid": "de4aad1e-8c39-4ec9-9666-7313c005674c",
+      "id": "43.2",
+      "link": "https://learn.microsoft.com/azure/data-explorer/follower?tabs=csharp"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Create Multiple independent clusters",
+      "description": "Azure Data Explorer doesn't support automatic protection against the outage of an entire Azure region. This disruption can happen during a natural disaster, like an earthquake. If you require a solution for a disaster recovery situation, do the following steps to ensure business continuity. In these steps, you'll replicate your clusters, management, and data ingestion in two Azure paired regions.",
+      "waf": "Reliability",
+      "guid": "1e945b45-9c37-43e7-bd61-623b375a917e",
+      "id": "43.3",
+      "link": "https://learn.microsoft.com/azure/data-explorer/business-continuity-create-solution"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Create two or more independent clusters in two Azure paired regions",
+      "waf": "Reliability",
+      "guid": "cbe48fbe-64dd-47df-8e8b-bbc468155abb",
+      "id": "43.4",
+      "link": "https://learn.microsoft.com/azure/data-explorer/business-continuity-create-solution#create-multiple-independent-clusters"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Replicate all management activities such as creating new tables or managing user roles on each cluster.",
+      "waf": "Reliability",
+      "guid": "29ec7228-2376-415c-a57b-4a4b1814383a",
+      "id": "43.5",
+      "link": "https://learn.microsoft.com/azure/data-explorer/business-continuity-create-solution#replicate-management-activities"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Replication",
+      "text": "Ingest data into each cluster in parallel",
+      "waf": "Reliability",
+      "guid": "25759e35-680e-4782-99c9-32213d027ff4",
+      "id": "43.6"
+    },
+    {
+      "category": "DR Configuration",
+      "subcategory": "Cluster Design",
+      "text": "Active-Active-Active (always-on) configuration",
+      "description": "This configuration is also called 'always-on'. For critical application deployments with no tolerance for outages, you should use multiple Azure Data Explorer clusters across Azure paired regions.",
+      "waf": "Reliability",
+      "guid": "12f70993-0631-4583-8ee7-9d6c6d363206",
+      "id": "43.7"
+    },
+    {
+      "category": "DR Configuration",
+      "subcategory": "Cluster Design",
+      "text": "Active-Active configuration",
+      "description": "This configuration is identical to the active-active-active configuration, but only involves two Azure paired regions. Configure dual ingestion, processing, and curation. Users are routed to the nearest region. The cluster SKU must be the same across regions.",
+      "waf": "Reliability",
+      "guid": "5b7abae3-4aad-45e8-a79e-2e86667313c5",
+      "id": "43.8"
+    },
+    {
+      "category": "DR Configuration",
+      "subcategory": "Cluster Design",
+      "text": "Active-Hot standby configuration",
+      "description": "The Active-Hot configuration is similar to the Active-Active configuration in dual ingest, processing, and curation. While the standby cluster is online for ingestion, process, and curation, it isn't available to query. The standby cluster doesn't need to be in the same SKU as the primary cluster. It can be of a smaller SKU and scale, which may result in it being less performant. In a disaster scenario, users are redirected to the standby cluster, which can optionally be scaled up to increase performance.",
+      "waf": "Reliability",
+      "guid": "05675c5e-985b-4859-a774-f7e371623b87",
+      "id": "43.9"
+    },
+    {
+      "category": "DR Configuration",
+      "subcategory": "Cluster Design",
+      "text": "On-demand data recovery cluster configuration",
+      "description": "This solution offers the least resiliency (highest RPO and RTO), is the lowest in cost and highest in effort. In this configuration, there's no data recovery cluster. Configure continuous export of curated data (unless raw and intermediate data is also required) to a storage account that is configured GRS (Geo Redundant Storage). A data recovery cluster is spun up if there is a disaster recovery scenario. At that time, DDLs, configuration, policies, and processes are applied. Data is ingested from storage with the ingestion property kustoCreationTime to over-ride the ingestion time that defaults to system time.",
+      "waf": "Reliability",
+      "guid": "5a917e1f-349f-4036-9d28-d42e8bbbc868",
+      "id": "43.1"
+    },
+    {
+      "category": "DevOps",
+      "subcategory": "IaC",
+      "text": "Wrap DevOps and source control around all your code",
+      "description": "All database objects, policies, and configurations should be persisted in source control so they can be released to the cluster from your release automation tool.",
+      "waf": "Reliability",
+      "guid": "d116785c-2fa5-46c5-9ad4-8408fe72734c",
+      "id": "43.11",
+      "training": "https://learn.microsoft.com/learn/paths/secure-your-cloud-data/",
+      "link": "https://learn.microsoft.com/azure/data-explorer/devops"
+    },
+    {
+      "category": "DevOps",
+      "subcategory": "IaC",
+      "text": "Design, develop, and implement validation routines to ensure all clusters are in-sync from a data perspective.",
+      "waf": "Reliability",
+      "guid": "486ba280-dc05-490c-b65d-e8e1309ccbd5",
+      "id": "43.12",
+      "training": "https://learn.microsoft.com/learn/modules/azure-active-directory/",
+      "link": "https://learn.microsoft.com/azure/active-directory-domain-services/overview"
+    },
+    {
+      "category": "DevOps",
+      "subcategory": "IaC",
+      "text": "Be fully cognizant of what it takes to build a cluster from scratch.",
+      "waf": "Reliability",
+      "guid": "79266bcc-a274-4faa-8abf-e9d55d04c3c4",
+      "id": "43.13",
+      "training": "https://learn.microsoft.com/learn/modules/implement-hybrid-identity-windows-server/",
+      "link": "https://learn.microsoft.com/azure/active-directory-domain-services/overview"
+    }
+  ]
+}
+

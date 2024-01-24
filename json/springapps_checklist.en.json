@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "category": "High Availablity",
+      "subcategory": "Redundancy",
+      "text": "Deploy zone redundant  ASA instance",
+      "description": "In supported region, Azure spring Apps can be deployed as zone redundant, which means that instances are automatically distributed across availability zones. This feature is only available in Standard and Enterprise tiers",
+      "waf": "Reliability",
+      "guid": "e338997e-41c7-47d6-acf6-a62a1194956d",
+      "id": "24.1"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "DevOps",
+      "text": "Use Blue-Green deployment pattern for the apps",
+      "description": "Azure Spring Apps permits two deployments for every app, only one of which receives production traffic. You can achieve zero downtime with blue green deployment strategies. Blue green deployment is only available in Standard and Enterprise tiers. You could automate deployment using CI/CD with ADO/GitHub actions",
+      "waf": "Reliability",
+      "guid": "697dc3a2-fd27-4b2e-8870-1a1252beedf6",
+      "id": "24.2"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Monitoring",
+      "text": "Set up alerts and dashboards for monitoring and notification",
+      "description": "Monitor Azure spring apps with logs, metrics and tracing. Integrate  ASA with application insights and track failures and create workbooks",
+      "waf": "Reliability",
+      "guid": "8a488cde-c486-42bc-9bd2-1be77f26e5e6",
+      "id": "24.3"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Redundancy",
+      "text": "Create multi region model for high availability and disaster recovery",
+      "description": "Azure Spring Apps instances could be created in multiple regions for your applications and traffic could be routed by Traffic Manager/Front Door",
+      "waf": "Reliability",
+      "guid": "b3bec3d4-f343-47b1-936d-b55f27a71eee",
+      "id": "24.4"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Enterprise ",
+      "text": "Enable  VMware Spring Cloud Gateway(Enterprise tiers)",
+      "description": "Set up autoscaling  in Spring Cloud Gateway",
+      "waf": "Reliability",
+      "guid": "0bd05dc2-efd5-4d76-8d41-d2500cc47b49",
+      "id": "24.5"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Enterprise ",
+      "text": "Use Enterprise plan for commercial support of spring boot for mission critical apps. With other tiers you get OSS support",
+      "waf": "Reliability",
+      "guid": "3a040fd3-2947-498b-8288-b3c6a56ceb54",
+      "id": "24.6"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Redundancy",
+      "text": "Enable autoscale for the apps with Standard consumption & dedicated plan",
+      "waf": "Reliability",
+      "guid": "4451e1a2-d345-4293-a763-9637a551c5c0",
+      "id": "24.7"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Redundancy",
+      "text": "Use more than 1 app instance for your apps",
+      "waf": "Reliability",
+      "guid": "4e401954-387e-45ce-b126-cd132af5b20c",
+      "id": "24.8"
+    }
+  ]
+}
+

@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Hive and Interactive Query",
+      "text": "Hive active primary with on-demand secondary",
+      "waf": "Reliability",
+      "guid": "c1ea45b4-6ad4-474f-aee7-2734b475ba18",
+      "id": "32.1"
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Hive and Interactive Query",
+      "text": "Hive active primary with standby secondary",
+      "waf": "Reliability",
+      "guid": "fcbf59fb-e64d-4d8e-83f9-bbbc468265ab",
+      "id": "32.2"
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Spark",
+      "text": "Spark active primary with on-demand secondary",
+      "waf": "Reliability",
+      "guid": "ca264e9a-19ae-4d8c-95cf-4c2b3819ca0a",
+      "id": "32.3"
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Spark",
+      "text": "Spark active primary with standby secondary",
+      "waf": "Reliability",
+      "guid": "2c02149e-114b-4933-be57-4dcccd9bd3aa",
+      "id": "32.4"
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Hbase",
+      "text": "HBase Replication: Leader � Follower model",
+      "waf": "Reliability",
+      "guid": "fcda2b54-eb2e-4b03-bd99-2581718d2ddb",
+      "id": "32.5"
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Hbase",
+      "text": "HBase Replication: Leader � Leader model",
+      "waf": "Reliability",
+      "guid": "10725769-ee56-490a-9824-ac932213ece7",
+      "id": "32.6"
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Hbase",
+      "text": "HBase Replication: Multi-Region or Cyclic",
+      "waf": "Reliability",
+      "guid": "4f5664b5-d984-4a75-ac77-3e7d261623a7",
+      "id": "32.7"
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Kafka",
+      "text": "Kafka Replication: Active � Passive",
+      "waf": "Reliability",
+      "guid": "64a907e1-e348-4ef2-94c2-7d32e8bbac75",
+      "id": "32.8",
+      "cost": 1
+    },
+    {
+      "category": "Business Continuity Architectures",
+      "subcategory": "Apache Kafka",
+      "text": "Kafka Replication: Active � Active",
+      "waf": "Reliability",
+      "guid": "71559ab9-153e-489f-aae2-8b84c33b6b78",
+      "id": "32.9",
+      "cost": 1
+    }
+  ]
+}
+

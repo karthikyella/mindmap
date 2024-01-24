@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "category": "Top questions you should be thinking about",
+      "subcategory": "What is your NVA Hosting?",
+      "text": "Firewall",
+      "waf": "Reliability",
+      "guid": "c6d37331-65c7-4acb-b44b-be508d79f2e8",
+      "id": "21.1"
+    },
+    {
+      "category": "Top questions you should be thinking about",
+      "subcategory": "What is your NVA Hosting?",
+      "text": "VPN ",
+      "waf": "Reliability",
+      "guid": "7778424c-5167-475c-9fa9-5b96ad88408e",
+      "id": "21.2"
+    },
+    {
+      "category": "Top questions you should be thinking about",
+      "subcategory": "What is your NVA Hosting?",
+      "text": "Load Balancer",
+      "waf": "Reliability",
+      "guid": "372734b8-76ba-428f-8145-901365d38e53",
+      "id": "21.3"
+    },
+    {
+      "category": "Top questions you should be thinking about",
+      "subcategory": "What is your NVA Hosting?",
+      "text": "SD WAN Service",
+      "waf": "Reliability",
+      "guid": "f9ccbd86-8266-4abc-a264-f9a19bf39d95",
+      "id": "21.4"
+    },
+    {
+      "category": "Top questions you should be thinking about",
+      "subcategory": "What is your expected traffic?",
+      "text": "East/West Traffic",
+      "waf": "Reliability",
+      "guid": "d44c7c89-19ca-41f6-b521-5ae514b934d4",
+      "id": "21.5"
+    },
+    {
+      "category": "Top questions you should be thinking about",
+      "subcategory": "What is your expected traffic?",
+      "text": "North/South Traffic",
+      "description": "Internet & Azure and On Prem & Azure",
+      "waf": "Reliability",
+      "guid": "585e1112-9bd7-4ba0-82f7-b94ef6e043d2",
+      "id": "21.6"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "Redudancy",
+      "text": "You want at least two NVAs",
+      "waf": "Reliability",
+      "guid": "aa359271-8e6e-4205-8725-769e46691e88",
+      "id": "21.7"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "Redudancy",
+      "text": "More nodes is more resilient, but more nodes is more money",
+      "waf": "Reliability",
+      "guid": "34ac9322-23e1-4380-8523-081a94174158",
+      "id": "21.8"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "Methods",
+      "text": "Active-Active",
+      "waf": "Reliability",
+      "guid": "33ee7ad6-c6d3-4733-865c-7acbe44bbe50",
+      "id": "21.9"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "Methods",
+      "text": "Active-Passive",
+      "waf": "Reliability",
+      "guid": "8d79f2e8-7778-4424-a516-775c6fa95b96",
+      "id": "21.1"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "HA Architectures",
+      "text": "Azure Load Balancer",
+      "waf": "Reliability",
+      "guid": "ad88408e-3727-434b-a76b-a28f21459013",
+      "id": "21.11"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "HA Architectures",
+      "text": "Azure Route Server",
+      "waf": "Reliability",
+      "guid": "65d38e53-f9cc-4bd8-9826-6abca264f9a1",
+      "id": "21.12"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "HA Architectures",
+      "text": "Gateway Load Balancer",
+      "waf": "Reliability",
+      "guid": "9bf39d95-d44c-47c8-a19c-a1f6d5215ae5",
+      "id": "21.13"
+    },
+    {
+      "category": "Architecture",
+      "subcategory": "HA Architectures",
+      "text": "Changing PIP/UDR",
+      "waf": "Reliability",
+      "guid": "14b934d4-585e-4111-89bd-7ba012f7b94e",
+      "id": "21.14"
+    },
+    {
+      "category": "Best Practice",
+      "subcategory": "SLA",
+      "text": "NVAs are often critical resources shared between many different workloads, so their resiliency impacts the resiliency of many different workloads",
+      "waf": "Reliability",
+      "guid": "f6e043d2-aa35-4927-88e6-e2050725769e",
+      "id": "21.15"
+    }
+  ]
+}
+

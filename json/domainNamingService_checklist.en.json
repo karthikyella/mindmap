@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "category": "High Availablity",
+      "subcategory": "Azure Private DNS",
+      "text": "Private DNS Zones are multi-region by default",
+      "waf": "Reliability",
+      "guid": "35656202-bfe4-4564-a0d8-34a348b263e7",
+      "id": "23.1"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Azure Private DNS",
+      "text": "Verify that Zones are linked to Vnets in multiple regions",
+      "waf": "Reliability",
+      "guid": "dd60513a-3649-4906-bbad-38ead53cc7de",
+      "id": "23.2"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Azure Private DNS",
+      "text": "If different Zones are used between regions, verify a plan for making sure that Zones are up to date in a DR failover situation",
+      "waf": "Reliability",
+      "guid": "1d8aaab3-5714-449a-a815-3d89f89dc7b3",
+      "id": "23.3"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Azure DNS",
+      "text": "Multi-region by default",
+      "waf": "Reliability",
+      "guid": "3be2a1a2-7f7b-49e9-8be1-f38cff3a822b",
+      "id": "23.4"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Azure DNS",
+      "text": "Plan for disaster recovery with Azure DNS and Traffic Manager",
+      "waf": "Reliability",
+      "guid": "d463cbbb-c8ac-4199-bbc9-1a43d90dae2c",
+      "id": "23.5"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Azure DNS Resolver",
+      "text": "Enable availability zones with Private Resolver",
+      "waf": "Reliability",
+      "guid": "c8814706-f7c1-4cba-be61-4658dd457e92",
+      "id": "23.6"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Azure DNS Resolver",
+      "text": "Plan for failover with Private Resolvers in a Disaster Recovery",
+      "waf": "Reliability",
+      "guid": "7139b821-102c-4ac6-bae0-1e6e842e52f4",
+      "id": "23.7"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "VM Based DNS Service",
+      "text": "Follow VM Guidance",
+      "waf": "Reliability",
+      "guid": "722d928c-1b1c-4d52-8e54-a29a9de399c0",
+      "id": "23.8"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "VM Based DNS Service",
+      "text": "IF AD based DNS, follow the Identity -> Windows Server AD path",
+      "waf": "Reliability",
+      "guid": "e7c28dc9-3565-4620-8bfe-4564b0d834a3",
+      "id": "23.9"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "VM Based DNS Service",
+      "text": "IF a third party, follow the vendor's specific guidance",
+      "waf": "Reliability",
+      "guid": "48b263e7-dd60-4513-a364-9906dbad38ea",
+      "id": "23.1"
+    }
+  ]
+}
+

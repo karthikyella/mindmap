@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "category": "High Availablity ",
+      "subcategory": "Best Practice",
+      "text": "Leverage Flexible Server",
+      "waf": "Reliability",
+      "guid": "e13c0056-74b1-4e94-9a45-9837ee7ad6c6",
+      "id": "30.1",
+      "link": "https://learn.microsoft.com/azure/mysql/flexible-server/overview"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Best Practice",
+      "text": "Leverage Availability Zones where regionally applicable",
+      "waf": "Reliability",
+      "guid": "d3b365a5-c7ac-4be4-aabe-54cd79f2e877",
+      "id": "30.2",
+      "link": "https://learn.microsoft.com/azure/mysql/flexible-server/overview#high-availability-within-and-across-availability-zones"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Best Practice",
+      "text": "Leverage Data-in replication for cross-region DR scenarios",
+      "waf": "Reliability",
+      "guid": "68358c55-9775-4c6e-b95b-86ad8844ce3b",
+      "id": "30.3",
+      "link": "https://learn.microsoft.com/azure/mysql/flexible-server/overview#setup-hybrid-or-multi-cloud-data-synchronization-with-data-in-replication"
+    }
+  ]
+}
+

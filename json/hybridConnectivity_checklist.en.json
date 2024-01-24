@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "category": "VPN Gateway",
+      "subcategory": "Best  Practice",
+      "text": "VPN Gateway and Express Route DR Best Practices will apply to Hub & Spoke and VWan Architectures",
+      "waf": "Reliability",
+      "guid": "74d0102c-ac6a-4ae0-8e6a-83de5de36c1d",
+      "id": "16.1"
+    },
+    {
+      "category": "VPN Gateway",
+      "subcategory": "Redudancy",
+      "text": "Deploy Gateways in to multiple Availability Zones for resiliency",
+      "waf": "Reliability",
+      "guid": "92881a0b-d5d1-4e44-a186-58d3958fd772",
+      "id": "16.2"
+    },
+    {
+      "category": "VPN Gateway",
+      "subcategory": "Redudancy",
+      "text": "Redundancy in Azure is only half of the consideration - the on-prem side of the VPN needs to also be resilient",
+      "waf": "Reliability",
+      "guid": "89b83555-6df2-4bee-9563-bfd834a34872",
+      "id": "16.3"
+    },
+    {
+      "category": "ExpressRoutes",
+      "subcategory": "Express Route Circuits",
+      "text": "Each ExpressRoute Circuit contains two connections",
+      "waf": "Reliability",
+      "guid": "6dd69c6b-5c2a-4264-a4b6-9bad37aad53c",
+      "id": "16.4"
+    },
+    {
+      "category": "ExpressRoutes",
+      "subcategory": "Express Route Circuits",
+      "text": "Having multiple ExpressRoute Circuits add additional redundant connection pairs",
+      "waf": "Reliability",
+      "guid": "c68e1d76-6673-457c-9496-74b5ed84a859",
+      "id": "16.5"
+    },
+    {
+      "category": "ExpressRoutes",
+      "subcategory": "Express Route Circuits",
+      "text": "You can use VPN as a backup for ExpressRoute",
+      "waf": "Reliability",
+      "guid": "c7733be2-a1a2-47b7-95a9-1be1f388ef29",
+      "id": "16.6"
+    },
+    {
+      "category": "ExpressRoutes",
+      "subcategory": "Express Route Circuits",
+      "text": "Routing for Multiple Circuits",
+      "description": "Be aware that you can leverage Connection Weights. You can leverage Connection Weights to ensure their is traffic symmetry",
+      "waf": "Reliability",
+      "guid": "4c2bd463-cbba-4c75-9195-9ab9193ed90c",
+      "id": "16.7"
+    },
+    {
+      "category": "ExpressRoutes",
+      "subcategory": "Express Route Gateway",
+      "text": "Deploy Gateways in to multiple Availability Zones for resiliency",
+      "waf": "Reliability",
+      "guid": "ae2cc84c-37b6-4b78-8cb9-fe5c45489d44",
+      "id": "16.8"
+    },
+    {
+      "category": "Data Gateway",
+      "subcategory": "Data Gateway",
+      "text": "Leverage data gateway cluster to avoid single points of failure and to load balance traffic across gateways in a cluster",
+      "waf": "Reliability",
+      "guid": "7a927c38-74d0-4102-aac6-aae01e6a83de",
+      "id": "16.9"
+    }
+  ]
+}
+

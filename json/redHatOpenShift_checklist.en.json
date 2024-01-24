@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "category": "High Availablity",
+      "subcategory": "Availablity",
+      "text": "Current ARO SLA - 99.95",
+      "waf": "Reliability",
+      "guid": "54064158-33ea-43ad-8c2d-e732165c3acb",
+      "id": "25.1"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Availablity Zone",
+      "text": "Leverage Availability Zones where regionally applicable. This is automatic when creating a cluster from the portal if the region supports zones.",
+      "description": "ARO clusters require a minimum of 3 control plane nodes (aka master) and 3 worker nodes (worker nodes expandable). Theese nodes will be spread across zones if applicable. An ARO cluster will minimally have 3 control plan and 3 worker nodes when created",
+      "waf": "Reliability",
+      "guid": "ef4abd1f-8d39-4fda-9776-8313c115675c",
+      "id": "25.2"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Cluster Design",
+      "text": "Run user workloads on the worker nodes, not the control plane nodes",
+      "waf": "Reliability",
+      "guid": "1ea55b46-ad48-44f8-be72-734b475ba18f",
+      "id": "25.3"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Cluster Design",
+      "text": "Isolate workloads into worker nodes running in individual subnets as needed",
+      "description": "Create infrastructure machine sets to hold infrastructure components. Apply specific Kubernetes labels to these machines and then update the infrastructure components to run on only those machines",
+      "waf": "Reliability",
+      "guid": "cbf590ce-65de-48e0-9f9b-cbd468266abc",
+      "id": "25.4"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Cluster Design",
+      "text": "Use Kubernetes resource governance (Requests, Limits) for memory and cpu to ensure proper pod scheduling",
+      "description": "Use the Vertical Pod Autoscaler to help here",
+      "waf": "Reliability",
+      "guid": "a264e9a1-9aed-48c5-9d04-c2b3919ca0b2",
+      "id": "25.5"
+    },
+    {
+      "category": "High Availablity",
+      "subcategory": "Cluster Design",
+      "text": "Use pod disruption budgets and multiple replicas to ensure enough replicas to handle load",
+      "waf": "Reliability",
+      "guid": "c12149e1-14b9-433d-b574-ecccd9bd3aaf",
+      "id": "25.6"
+    },
+    {
+      "category": "Storage",
+      "subcategory": "Backup",
+      "text": "Backup a cluster state for stateful workload scenarios to a paired region",
+      "waf": "Reliability",
+      "guid": "cda3b54e-b2eb-403d-b992-582718d2ddb1",
+      "id": "25.7"
+    },
+    {
+      "category": "Storage",
+      "subcategory": "Data Store",
+      "text": "If container storage is required, ensure availability across regions if needed: Using RWX storage with inbuilt Azure Files storage class. Using CSI Drivers for storage provisioning",
+      "waf": "Reliability",
+      "guid": "0725769e-e669-41a4-a24a-c932223ece80",
+      "id": "25.8"
+    },
+    {
+      "category": "Storage",
+      "subcategory": "Data Store",
+      "text": "Whenever possible, move state out of containers and into external databases that support multi-region replication. Avoid Persistent Volumes",
+      "waf": "Reliability",
+      "guid": "b123071a-5406-4415-a33e-a3ad2c2de732",
+      "id": "25.9"
+    },
+    {
+      "category": "Container Registry",
+      "subcategory": "Replication",
+      "text": "Use a geo-replicated container registry like Azure Container Registry or other",
+      "waf": "Reliability",
+      "guid": "f54b29ba-de39-4ad0-b7c2-8ec936657303",
+      "id": "25.1"
+    }
+  ]
+}
+

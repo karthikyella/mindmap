@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "category": "Cross Region",
+      "subcategory": "Replication",
+      "text": "To deliver a highly available service, the container data is replicated to another region",
+      "waf": "Reliability",
+      "guid": "5a917e1f-348e-4f35-9c27-d42e8bbac868",
+      "id": "37.1"
+    },
+    {
+      "category": "Cross Region",
+      "subcategory": "Replication",
+      "text": "Internally, Azure Fluid Relay uses Azure Blob Storage cross-region replication to achieve that. The region where data is replicated is defined by the Azure regional pairs listed on the Cross-region replication in Azure page",
+      "waf": "Reliability",
+      "guid": "155abb91-63e9-4909-ae28-c84c33b6b780",
+      "id": "37.2"
+    }
+  ]
+}
+

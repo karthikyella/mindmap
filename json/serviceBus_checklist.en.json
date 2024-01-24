@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "category": "Best Practice",
+      "subcategory": "Playbook",
+      "text": "Leverage FTA Handbook",
+      "waf": "Reliability",
+      "guid": "b5c2622f-54b6-49ba-b33a-ad4e8c68e1d7",
+      "id": "29.1",
+      "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-ASB_v1.docx"
+    }
+  ]
+}
+

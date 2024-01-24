@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "category": "Resillency Checklist",
+      "subcategory": "Checklist",
+      "text": "FastTrack for Azure engineers have compiled a Excel checklist of all the relevant guidance and documentation for resiliency across all supported services",
+      "waf": "Reliability",
+      "guid": "47b6b781-cbaf-4e6c-9658-9d457a927c39",
+      "id": "17.1"
+    }
+  ]
+}
+

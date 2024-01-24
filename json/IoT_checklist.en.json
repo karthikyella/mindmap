@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "category": "IoT Hub DR",
+      "subcategory": "High Availablity",
+      "text": "Leverage  Availability Zones if regionally applicable (this is automatically enabled)",
+      "waf": "Reliability",
+      "guid": "dc8eb9d1-bb73-4b26-a5a6-7eba8ed4b343",
+      "id": "27.1",
+      "link": "https://learn.microsoft.com/azure/iot-hub/iot-hub-ha-dr#availability-zones"
+    },
+    {
+      "category": "IoT Hub DR",
+      "subcategory": "High Availablity",
+      "text": "Microsoft-initiated failover",
+      "description": "Microsoft-initiated failover is exercised by Microsoft in rare situations to fail over all the IoT hubs from an affected region to the corresponding geo-paired region",
+      "waf": "Reliability",
+      "guid": "78c34698-16b2-4763-aefe-1b9b599de0d5",
+      "id": "27.2",
+      "link": "https://learn.microsoft.com/azure/iot-hub/iot-hub-ha-dr#microsoft-initiated-failover"
+    },
+    {
+      "category": "IoT Hub DR",
+      "subcategory": "Active-Active",
+      "text": "Achieve cross region HA",
+      "description": "You can incorporate a secondary IoT hub and device routing logic to  create an Active/Active Scenario",
+      "waf": "Reliability",
+      "guid": "973cd4cd-25c0-4c81-97f9-eac4cfd33908",
+      "id": "27.3"
+    },
+    {
+      "category": "IoT Hub DR",
+      "subcategory": "Active-Active",
+      "text": "Achieve cross region HA",
+      "description": "If your IoT Hub service in your primary region is disrupted, devices must start connecting to your secondary region. Given the state-aware nature of most services involved, it's common for solution administrators to trigger the inter-region failover process",
+      "waf": "Reliability",
+      "guid": "547c2847-ec66-4178-a724-445ce1aed345",
+      "id": "27.4"
+    },
+    {
+      "category": "IoT Hub DR",
+      "subcategory": "Active-Passive",
+      "text": "Manual failover",
+      "waf": "Reliability",
+      "guid": "2aec7239-2376-415c-b58b-5a4b1915383a",
+      "id": "27.5",
+      "link": "https://learn.microsoft.com/azure/iot-hub/iot-hub-ha-dr#manual-failover"
+    },
+    {
+      "category": "IoT Hub DR",
+      "subcategory": "Active-Passive",
+      "text": "Failback",
+      "waf": "Reliability",
+      "guid": "58a9c269-9c42-4bb6-9d0c-65556246b338",
+      "id": "27.6",
+      "link": "https://learn.microsoft.com/azure/iot-hub/iot-hub-ha-dr#failback"
+    },
+    {
+      "category": "IoT Hub DR",
+      "subcategory": "Active-Passive",
+      "text": "Step-by-step instructions",
+      "waf": "Reliability",
+      "guid": "563a4dc7-3974-48b6-922a-d19f916a6549",
+      "id": "27.7",
+      "cost": 1,
+      "link": "https://learn.microsoft.com/azure/iot-hub/tutorial-manual-failover"
+    },
+    {
+      "category": "Device Provisioning Service",
+      "subcategory": "Replicas",
+      "text": "Use multiple replicas",
+      "description": "Azure DPS allows you to provision your devices across multiple replicas for higher availability. Distributing your devices across multiple replicas helps prevent a single point of failure and ensures that provisioning requests can be processed even if one replica experiences issues",
+      "waf": "Reliability",
+      "guid": "8fadfe27-7de2-483b-8ac3-52baa9b64708",
+      "id": "27.8",
+      "cost": 1
+    },
+    {
+      "category": "Device Provisioning Service",
+      "subcategory": "Replicas",
+      "text": "Regional redundancy",
+      "description": "Deploy your Azure DPS instances across multiple Azure regions to achieve geographic redundancy. This helps ensure that your provisioning service remains available even in the event of a regional outage.",
+      "waf": "Reliability",
+      "guid": "48aa8092-dc8e-4b9d-8bb7-3b26a5a67eba",
+      "id": "27.9",
+      "cost": 1
+    },
+    {
+      "category": "Device Provisioning Service",
+      "subcategory": "Failover",
+      "text": "Enable automatic failover",
+      "description": "Configure Azure DPS with automatic failover to enable seamless failover to a secondary replica in case of an outage. This ensures minimal disruption to the provisioning process and improves the overall resiliency of your solution",
+      "waf": "Reliability",
+      "guid": "8ed4b343-78c3-4469-a16b-2763cefe1b9b",
+      "id": "27.1",
+      "cost": 1
+    },
+    {
+      "category": "Device Provisioning Service",
+      "subcategory": "Monitoring",
+      "text": "Monitoring and alerts",
+      "description": "Set up monitoring and alerts to receive notifications about the health and performance of your Azure DPS instances. This allows you to proactively address any issues and take necessary actions before they impact your provisioning service",
+      "waf": "Reliability",
+      "guid": "599de0d5-973c-4d4c-b25c-0c8177f9eac4",
+      "id": "27.11",
+      "cost": 1
+    },
+    {
+      "category": "Device Provisioning Service",
+      "subcategory": "Backup",
+      "text": "Regular backups",
+      "description": "It's essential to regularly back up the configuration and state of your Azure DPS instances. This can be achieved by leveraging Azure Backup or other backup mechanisms provided by Azure services. Having backups ensures that you can restore your DPS configuration and device data in case of accidental deletions or data loss",
+      "waf": "Reliability",
+      "guid": "cfd33908-547c-4284-9ec6-6178a724445c",
+      "id": "27.12",
+      "cost": 1
+    },
+    {
+      "category": "IoT Device Update",
+      "subcategory": "Backup",
+      "text": "In cases where an Azure region is unavailable due to an outage, Device Update for IoT Hub supports business continuity and disaster recovery (BCDR) efforts with regional failover pairings. During an outage, data contained in the update files submitted to the Device Update service may be sent to a secondary Azure region",
+      "waf": "Reliability",
+      "guid": "e1aed345-2aec-4723-a237-615cd58b5a4b",
+      "id": "27.13"
+    },
+    {
+      "category": "Digital Twins",
+      "subcategory": "High Availablity",
+      "text": "Intra-region HA",
+      "description": "Built-in redundancy to deliver on uptime of the service",
+      "waf": "Reliability",
+      "guid": "1915383a-58a9-4c26-a9c4-2bb67d0c6555",
+      "id": "27.14"
+    },
+    {
+      "category": "Digital Twins",
+      "subcategory": "High Availablity",
+      "text": "Cross Region DR",
+      "description": "Failover to a geo-paired Azure region if there's an unexpected data center failure",
+      "waf": "Reliability",
+      "guid": "6246b338-563a-44dc-9397-48b6622ad19f",
+      "id": "27.15"
+    }
+  ]
+}
+

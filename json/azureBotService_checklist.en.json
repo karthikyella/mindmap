@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "category": "Best Practice",
+      "subcategory": "High Availablity",
+      "text": "Reliability in Azure Bot Service",
+      "waf": "Reliability",
+      "guid": "6ad48408-ee72-4734-a476-ba28fdcf590c",
+      "id": "35.1"
+    },
+    {
+      "category": "Best Practice",
+      "subcategory": "High Availablity",
+      "text": "Regionalization in Azure Bot Service",
+      "waf": "Reliability",
+      "guid": "e65de8e1-3f9c-4cbd-9682-66abca264f9a",
+      "id": "35.2"
+    },
+    {
+      "category": "Best Practice",
+      "subcategory": "High Availablity",
+      "text": "Azure Bot Service runs in active-active mode for both global and regional services. When an outage occurs, you don't need to detect errors or manage the service. Azure Bot Service automatically performs autofailover and auto recovery in a multi-region geographical architecture. For the EU bot regional service, Azure Bot Service provides two full regions inside Europe with active/active replication to ensure redundancy. For the global bot service, all available regions/geographies can be served as the global footprint.",
+      "waf": "Reliability",
+      "guid": "19bfe9d5-5d04-4c3c-9919-ca1b2d1215ae",
+      "id": "35.3"
+    },
+    {
+      "category": "Architectures",
+      "subcategory": "High Availablity",
+      "text": "Disaster  Recovery for Enteprise Bots",
+      "waf": "Reliability",
+      "guid": "114ba34d-f585-4ecd-ad9b-d3ba0cdb3b54",
+      "id": "35.4"
+    }
+  ]
+}
+

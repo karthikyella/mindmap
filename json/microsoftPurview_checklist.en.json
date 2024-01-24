@@ -1,0 +1,237 @@
+{
+  "items": [
+    {
+      "category": "Data Governance",
+      "subcategory": "Best Practices",
+      "text": "Leverage FTA Resillency Handbook",
+      "waf": "Reliability",
+      "guid": "ca7da8cf-a962-4a15-a495-6da97dc3a232",
+      "id": "36.1"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Best Practices",
+      "text": "High Availablity",
+      "description": "Microsoft Purview instances guarantees a monthly uptime percentage of at least 99.9%",
+      "waf": "Reliability",
+      "guid": "67b22586-f4a1-4652-addd-ea8a487cdec4",
+      "id": "36.2"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Disaster Recovery",
+      "text": "Microsoft Purview ensures no data loss but a recovery from outages may require you to restart your workflows such as scans",
+      "waf": "Reliability",
+      "guid": "861bc3bc-14ae-4b7e-96e8-d9a3bec218e6",
+      "id": "36.3"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Disaster Recovery",
+      "text": "High-level failover Purview instances",
+      "description": "1. Create the new account 2. Migrate configuration items 3. Run scans 4. Migrate custom typedefs and custom assets 5. Migrate relationships 6. Migrate glossary terms 7. Assign classifications to assets 8. Assign contacts to assets",
+      "waf": "Reliability",
+      "guid": "436b1736-db55-4f57-a603-334bdf9cc234",
+      "id": "36.4"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Backup and Restore ",
+      "text": "You may need to create regular backups from a Microsoft Purview account and use a backup in case a piece of data or configuration is accidentally or deliberately deleted from the Microsoft Purview account by the users",
+      "waf": "Reliability",
+      "guid": "18db6128-1265-404b-a47a-393a08032729",
+      "id": "36.5"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Purview Accounts Replications",
+      "text": "Use Microsoft Purview's Event Hubs to subscribe and create entities to another account",
+      "waf": "Reliability",
+      "guid": "4798b157-8b21-49a4-9ceb-544351359227",
+      "id": "36.6"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data catalog",
+      "text": "Purview accounts architectures and best practices",
+      "waf": "Reliability",
+      "guid": "44293bb6-2853-47a5-9119-b08e8f585428",
+      "id": "36.7"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data catalog",
+      "text": "Collection Design ",
+      "waf": "Reliability",
+      "guid": "7d9cec16-6cd0-472a-b9b1-41a998a535e7",
+      "id": "36.8",
+      "cost": 1
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data catalog",
+      "text": "Assest lifecycle best practices",
+      "waf": "Reliability",
+      "guid": "37897e71-ca7d-4a8c-ba96-2a1594956da9",
+      "id": "36.9",
+      "cost": 1
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data catalog",
+      "text": "Backup and Migration Best practices",
+      "waf": "Reliability",
+      "guid": "7dc3a232-67b2-4258-9f4a-1652bdddea8a",
+      "id": "36.1",
+      "cost": 1
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data catalog",
+      "text": "Business Glossary",
+      "waf": "Reliability",
+      "guid": "487cdec4-861b-4c3b-a14a-eb7e66e8d9a3",
+      "id": "36.11",
+      "cost": 1
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data catalog",
+      "text": "Workflow",
+      "waf": "Reliability",
+      "guid": "bec218e6-436b-4173-9db5-5f579603334b",
+      "id": "36.12",
+      "cost": 1
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data catalog",
+      "text": "Security Best Practices",
+      "waf": "Reliability",
+      "guid": "df9cc234-18db-4612-a126-504bb47a393a",
+      "id": "36.13",
+      "cost": 1
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Map",
+      "text": "Lineage Best Practices",
+      "waf": "Reliability",
+      "guid": "08032729-4798-4b15-98b2-19a46ceb5443",
+      "id": "36.14"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Map",
+      "text": "Scan registered sources",
+      "waf": "Reliability",
+      "guid": "51359227-4429-43bb-9285-37a55119b08e",
+      "id": "36.15"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Map",
+      "text": "Classification Best Practices",
+      "waf": "Reliability",
+      "guid": "8f585428-7d9c-4ec1-96cd-072af9b141a9",
+      "id": "36.16"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Map",
+      "text": "Sensitivity Label",
+      "waf": "Reliability",
+      "guid": "98a535e7-3789-47e7-8ca7-da8cfa962a15",
+      "id": "36.17"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Sharing",
+      "text": "In-place ADLS Gen2 & Storage data sharing",
+      "waf": "Reliability",
+      "guid": "94956da9-7dc3-4a23-867b-22586f4a1652",
+      "id": "36.18"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Estate",
+      "text": "Turn on/off Data Estate Insights",
+      "waf": "Reliability",
+      "guid": "bdddea8a-487c-4dec-9861-bc3bc14aeb7e",
+      "id": "36.19"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Estate",
+      "text": "Data stewardship, Catalog adoption",
+      "waf": "Reliability",
+      "guid": "66e8d9a3-bec2-418e-9436-b1736db55f57",
+      "id": "36.2",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Estate",
+      "text": "Inventory and Ownership",
+      "waf": "Reliability",
+      "guid": "9603334b-df9c-4c23-918d-b6128126504b",
+      "id": "36.21",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Estate",
+      "text": "Insights for Glossary, Classifications, Sensitivity Labels",
+      "waf": "Reliability",
+      "guid": "b47a393a-0803-4272-a479-8b1578b219a4",
+      "id": "36.22",
+      "link": "https://learn.microsoft.com/security/benchmark/azure/mcsb-asset-management#am-2-use-only-approved-services"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Quality ",
+      "text": "Generate assessment scores",
+      "waf": "Reliability",
+      "guid": "6ceb5443-5135-4922-9442-93bb628537a5",
+      "id": "36.23",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Quality ",
+      "text": "Profiling- get summaries of data content",
+      "waf": "Reliability",
+      "guid": "5119b08e-8f58-4542-a7d9-cec166cd072a",
+      "id": "36.24",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview#azure-rbac-permissions-in-azure-policy"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Policy",
+      "text": "Data Owner access policies",
+      "waf": "Reliability",
+      "guid": "f9b141a9-98a5-435e-9378-97e71ca7da8c",
+      "id": "36.25",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Policy",
+      "text": "Self-service access policies",
+      "waf": "Reliability",
+      "guid": "fa962a15-9495-46da-a7dc-3a23267b2258",
+      "id": "36.26",
+      "link": "https://learn.microsoft.com/azure/automation/automation-solution-vm-management-config"
+    },
+    {
+      "category": "Data Governance",
+      "subcategory": "Data Policy",
+      "text": "DevOps policies",
+      "waf": "Reliability",
+      "guid": "6f4a1652-bddd-4ea8-a487-cdec4861bc3b",
+      "id": "36.27",
+      "link": "https://learn.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2Fazure%2Fcloud-adoption-framework%2F_bread%2Ftoc.json&toc=%2Fazure%2Fcloud-adoption-framework%2Ftoc.json"
+    }
+  ]
+}
+

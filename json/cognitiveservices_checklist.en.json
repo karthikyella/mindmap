@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "category": "Best Practice",
+      "subcategory": "Practice",
+      "text": "Leverage FTA HandBook",
+      "waf": "Reliability",
+      "guid": "eda1dae2-cc84-4c47-a6b7-81cca0e6c465",
+      "id": "39.1",
+      "cost": 1,
+      "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-cog_svcs_v1.docx"
+    },
+    {
+      "category": "OpenAI",
+      "subcategory": "Backup",
+      "text": "Backup Your Prompts",
+      "waf": "Reliability",
+      "guid": "56a22586-f490-4641-addd-ea8a377cddb3",
+      "id": "39.2",
+      "cost": 1
+    },
+    {
+      "category": "OpenAI",
+      "subcategory": "Backup",
+      "text": "Business Continuity and Disaster Recovery (BCDR) considerations with Azure OpenAI Service",
+      "waf": "Reliability",
+      "guid": "861bb2bc-14ae-4a6e-95d8-d9a3adc218e6",
+      "id": "39.3",
+      "cost": 1
+    },
+    {
+      "category": "OpenAI",
+      "subcategory": "Backup",
+      "text": "Backup Your ChatGPT conversations",
+      "waf": "Reliability",
+      "guid": "436b0635-cb45-4e57-a6f3-324ace8cc123",
+      "id": "39.4",
+      "cost": 1
+    },
+    {
+      "category": "Language",
+      "subcategory": "DevOps",
+      "text": "CI/CD for custom speech",
+      "waf": "Reliability",
+      "guid": "18ca6017-0265-4f4b-a46a-393af7f31728",
+      "id": "39.5",
+      "cost": 1
+    },
+    {
+      "category": "Language",
+      "subcategory": "QnA Service",
+      "text": "Move a knowledge base using export-import",
+      "waf": "Reliability",
+      "guid": "4787b157-7a21-49a4-9beb-534340249216",
+      "id": "39.6",
+      "cost": 1
+    }
+  ]
+}
+

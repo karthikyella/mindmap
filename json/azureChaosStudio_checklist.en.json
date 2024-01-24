@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Resillence",
+      "text": "Is a managed service that uses chaos engineering to help you measure, understand, and improve your cloud application and service resilience",
+      "waf": "Reliability",
+      "guid": "a348b262-d6dc-4605-82a2-6498f6dbad37",
+      "id": "15.1",
+      "link": "https://learn.microsoft.com/shows/azure-friday/an-introduction-to-azure-chaos-studio"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Resillence",
+      "text": "Improve application resilience with chaos testing by deliberately introducing faults that simulate real-world outages",
+      "waf": "Reliability",
+      "guid": "ead53cc6-ce1d-47aa-ab35-70449ab8053d",
+      "id": "15.2",
+      "link": "https://learn.microsoft.com/azure/chaos-studio/chaos-studio-overview"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Resillence",
+      "text": "Disrupt your apps intentionally to identify gaps and plan mitigations before your customers are impacted by a problem",
+      "waf": "Reliability",
+      "guid": "88e89dc7-b33b-4e2a-8a27-f7a9e91be1f3",
+      "id": "15.3"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Common Scenario",
+      "text": "Reproduce an incident that affected your application, to better understand the failure. Ensure that post-incident repairs prevent the incident from recurring",
+      "waf": "Reliability",
+      "guid": "8cef2981-2bd4-463c-abac-79b199dab919",
+      "id": "15.4"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Common Scenario",
+      "text": "Prepare for a major event or season with 'game day' load, scale, performance, and resilience validation",
+      "waf": "Reliability",
+      "guid": "33d90cae-2cc8-4813-906f-7c0cb9fe5145",
+      "id": "15.5"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Common Scenario",
+      "text": "Do business continuity and disaster recovery (BCDR) drills to ensure that your application can recover quickly and preserve critical data in a disaster",
+      "waf": "Reliability",
+      "guid": "48dd457e-9271-438b-a201-02cac6eae01e",
+      "id": "15.6"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Common Scenario",
+      "text": "Run high availability (HA) drills to test application resilience against region outages, network configuration errors, high stress events, or noisy neighbor issues",
+      "waf": "Reliability",
+      "guid": "6e842e52-e361-41d9-88c1-a0bd521e44a1",
+      "id": "15.7"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Common Scenario",
+      "text": "Plan capacity needs for production environments",
+      "waf": "Reliability",
+      "guid": "9a9cd399-cfd7-4b28-bb83-55562f2bee45",
+      "id": "15.8"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Common Scenario",
+      "text": "Run stress tests or load tests",
+      "waf": "Reliability",
+      "guid": "63bfd834-a348-4b26-8d6d-c60512a26498",
+      "id": "15.9"
+    },
+    {
+      "category": "Choas Engineering",
+      "subcategory": "Common Scenario",
+      "text": "Build confidence in services built on cloud-native architectures",
+      "waf": "Reliability",
+      "guid": "f6dbad37-ead5-43cc-9ce1-d7aaab357044",
+      "id": "15.1"
+    }
+  ]
+}
+

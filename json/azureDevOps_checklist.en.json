@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "category": "Azure DevOps",
+      "subcategory": "Service Availablity",
+      "text": "This is a SaaS service so Microsoft takes care of the redundancy",
+      "waf": "Reliability",
+      "guid": "6dbad37d-ad43-4bc6-ae1d-7aa9b3470448",
+      "id": "19.1"
+    },
+    {
+      "category": "Azure DevOps",
+      "subcategory": "Service Availablity",
+      "text": "Pick your primary region wisely",
+      "waf": "Reliability",
+      "guid": "aa8052d8-8e79-4dc7-a33b-d2a1a27e7a8e",
+      "id": "19.2"
+    },
+    {
+      "category": "Azure DevOps",
+      "subcategory": "Hosted Agents",
+      "text": "Use VM scale sets or AKS build agents so that you can build on load rather than just run 1 VM",
+      "description": "Why? Because if your 1 VM goes down you won't be able to build",
+      "waf": "Reliability",
+      "guid": "90be1e38-cef2-4981-8bd3-63cabac79b19",
+      "id": "19.3"
+    },
+    {
+      "category": "Azure DevOps",
+      "subcategory": "Data Protection",
+      "text": "Azure DevOps has data protection agreement",
+      "waf": "Reliability",
+      "guid": "9dab9193-3c9f-4cae-8cb8-8137f6f6c0cb",
+      "id": "19.4",
+      "link": "https://learn.microsoft.com/azure/devops/organizations/security/data-protection?view=azure-devops"
+    },
+    {
+      "category": "GitHub",
+      "subcategory": "Service Availablity",
+      "text": "GitHub Enterprise Cloud is a SaaS service and redundancy is taken care of by GitHub",
+      "waf": "Reliability",
+      "guid": "9ee50454-8cd4-447e-a261-38b7200f1cac",
+      "id": "19.5"
+    },
+    {
+      "category": "GitHub",
+      "subcategory": "Data Protection",
+      "text": "GitHub Data Protection Agreement",
+      "waf": "Reliability",
+      "guid": "6e9e01d6-e832-4e52-b361-1d918b1a0bc5",
+      "id": "19.6"
+    }
+  ]
+}
+

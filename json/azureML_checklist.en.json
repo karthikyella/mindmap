@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "category": "Backup",
+      "subcategory": "Code",
+      "text": "Your CI/CD for your code",
+      "waf": "Reliability",
+      "guid": "997e811b-7da8-4cfa-a66e-15d4d5ada98d",
+      "id": "38.1"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Workspace",
+      "text": "Use ARM/Bicep/Terraform/Powershell",
+      "waf": "Reliability",
+      "guid": "c4e2426b-b235-4c70-9e16-96feedfa8a4c",
+      "id": "38.2"
+    },
+    {
+      "category": "Backup",
+      "subcategory": "Registry",
+      "text": "Backup your Registry",
+      "waf": "Reliability",
+      "guid": "8cdec4c6-20c3-40d2-9feb-7f6ae9eab3fe",
+      "id": "38.3"
+    }
+  ]
+}
+

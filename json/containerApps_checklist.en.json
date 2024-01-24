@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "category": "High Availablity ",
+      "subcategory": "Availablity Zone",
+      "text": "Leverage Availability Zones if regionally applicable",
+      "description": "Use more than one replica and enable Zone Redundancy",
+      "waf": "Reliability",
+      "guid": "d5ada97d-c3e2-4326-ab22-5c6f4e1696fd",
+      "id": "26.1"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Disaster Recovery ",
+      "text": "For cross-region DR, deploy container apps in multiple regions and follow active/active or active/passive application guidance",
+      "description": "Similar guidance as other container solutions using Front Door or Traffic Manager",
+      "waf": "Reliability",
+      "guid": "ddea8a4c-7cde-4c4c-910c-3fc14eeb7e6a",
+      "id": "26.2"
+    }
+  ]
+}
+

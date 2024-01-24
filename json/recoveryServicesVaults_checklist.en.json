@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "category": "Azure Site Recovery",
+      "subcategory": "Replication",
+      "text": "On-premises VM Replication (Hyper-V, VMware or Physical)",
+      "description": "Capacity planning is required to make sure you have sufficient bandwidth for replication and an estimated number of CPU cores & disk types that will be needed in Azure for failover",
+      "waf": "Reliability",
+      "guid": "577a2099-46bd-4a53-934f-24911634192b",
+      "id": "20.1"
+    },
+    {
+      "category": "Azure Site Recovery",
+      "subcategory": "Replication",
+      "text": "Azure VM Replication",
+      "description": "Use Azure Policy to ensure that all critical Azure VMs are protected with ASR",
+      "waf": "Reliability",
+      "guid": "a5285269-4400-48be-ad7e-4844276d8bdc",
+      "id": "20.2"
+    },
+    {
+      "category": "Azure Site Recovery",
+      "subcategory": "Replication",
+      "text": "Define recovery plans to automate the failover sequence for VMs. You can also include automation scripts to reduce manual steps and improve recovery time",
+      "waf": "Reliability",
+      "guid": "055ccf71-ae8a-4130-a888-9535e627896d",
+      "id": "20.3"
+    },
+    {
+      "category": "Azure Backup",
+      "subcategory": "Data Protection",
+      "text": "Enable and LOCK immutability for vaults. This ensures recovery points cannot be deleted before their intended expiry",
+      "waf": "Reliability",
+      "guid": "71ba6ca7-be99-4519-8483-845d987cb391",
+      "id": "20.4"
+    },
+    {
+      "category": "Azure Backup",
+      "subcategory": "Data Protection",
+      "text": "Enable 'Always-on soft delete' for vaults protecting critical workloads",
+      "waf": "Reliability",
+      "guid": "3256a124-76e4-4906-91ad-dce97a377bcd",
+      "id": "20.5"
+    },
+    {
+      "category": "Recovery Services",
+      "subcategory": "Redudancy",
+      "text": "When creating Recovery Service Vaults choose the best storage redundancy option for your requirements. Vaults support local, geo and zone redundancy but this setting cannot be changed once the vault is protecting one or more resources",
+      "waf": "Reliability",
+      "guid": "b3751bb2-ac14-4aea-9e55-d8d9a2adb217",
+      "id": "20.6"
+    }
+  ]
+}
+

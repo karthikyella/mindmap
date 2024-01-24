@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "category": "High Availablity ",
+      "subcategory": "Redundancy",
+      "text": "The objective of this workbook is to provide an overview of the configured state of deployment options that affect the resilience and/or availability SLA for common Azure resource types",
+      "waf": "Reliability",
+      "guid": "886ba280-2145-4901-965d-38e5309ccbd9",
+      "id": "18.1"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Redundancy",
+      "text": "Building a reliable application in the cloud is different from traditional application development. While historically you may have purchased levels of redundant higher-end hardware to minimize the chance of an entire application platform failing, in the cloud, we acknowledge up front that failures will happen. Instead of trying to prevent failures altogether, the goal is to minimize the effects of a single failing component",
+      "waf": "Reliability",
+      "guid": "79266bcc-a275-4faa-8abf-39d95d44c7c8",
+      "id": "18.2"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Redundancy",
+      "text": "Reliable applications are highly available (HA) and run as designed in a healthy state with no significant downtime",
+      "waf": "Reliability",
+      "guid": "919cb1f7-d532-45ae-924b-a34d4685e221",
+      "id": "18.3"
+    },
+    {
+      "category": "High Availablity ",
+      "subcategory": "Redundancy",
+      "text": "Understanding how these elements work together � and how they affect cost � is essential to building a reliable application. It can help you determine how much downtime is acceptable, the potential cost to your business, and which functions are necessary during a recovery",
+      "waf": "Reliability",
+      "guid": "39bd7bb0-12f7-4b95-b06e-154e3aa35928",
+      "id": "18.4"
+    }
+  ]
+}
+

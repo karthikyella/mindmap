@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Multi-tenant service",
             "text": "Multi-tenant service",
             "waf": "Reliability",
@@ -12,7 +12,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/zone-redundant?source=recommendations"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Multi-tenant service",
             "text": "Use Premium and Standard tiers. These tiers support staging slots and automated backups.",
             "waf": "Reliability",
@@ -23,7 +23,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/overview-hosting-plans"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Multi-tenant service",
             "text": "Leverage Availability Zones where regionally applicable (requires Premium v2 or v3 tier)",
             "waf": "Reliability",
@@ -34,7 +34,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/reliability/migrate-app-service"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Multi-tenant service",
             "text": "Implement health checks",
             "waf": "Reliability",
@@ -45,7 +45,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Multi-tenant service",
             "text": "Backup/restore of webapps",
             "waf": "Reliability",
@@ -56,7 +56,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/manage-backup"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Multi-tenant service",
             "text": "HA checklist",
             "waf": "Reliability",
@@ -67,7 +67,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/architecture/framework/services/compute/azure-app-service/reliability"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Multi-tenant service",
             "text": "DR recovery",
             "waf": "Reliability",
@@ -78,7 +78,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/manage-disaster-recovery#recover-app-content-only"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "App Service Environment v3",
             "text": "App Service Environment v3",
             "waf": "Reliability",
@@ -89,7 +89,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/environment/overview"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "App Service Environment v3",
             "text": "Leverage Availability Zones where regionally applicable",
             "waf": "Reliability",
@@ -100,7 +100,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/reliability/migrate-app-service-environment"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "App Service Environment v3",
             "text": "Ensure \"Always On\" is enabled",
             "waf": "Reliability",
@@ -111,7 +111,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/azure-functions/dedicated-plan#always-on"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "App Service Environment v3",
             "text": "Implement health checks",
             "waf": "Reliability",
@@ -122,7 +122,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "App Service Environment v3",
             "text": "HA checklist",
             "waf": "Reliability",
@@ -133,7 +133,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/architecture/framework/services/compute/azure-app-service/reliability"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "App Service Environment v3",
             "text": "DR recovery",
             "waf": "Reliability",
@@ -144,7 +144,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/manage-disaster-recovery#recover-app-content-only"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Use Application Insights",
             "text": "Use Availiability Tests & Ping Tests",
             "waf": "Reliability",
@@ -155,7 +155,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/availability-overview"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Use Application Insights",
             "text": "Standard test",
             "waf": "Reliability",
@@ -165,7 +165,7 @@
             "severity": "Low"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Use Application Insights",
             "text": "Custom TrackAvailability test",
             "waf": "Reliability",
@@ -175,7 +175,7 @@
             "severity": "Low"
         },
         {
-            "category": "Platform automation and DevOps",
+            "category": "Operations management",
             "subcategory": "Use Application Insights",
             "text": "URL ping test",
             "waf": "Reliability",
@@ -184,5 +184,85 @@
             "cost": 1,
             "severity": "Low"
         }
-    ]
-}
+    ],
+    "categories": [
+        {
+            "name": "Identity and Access Management"
+        },
+        {
+            "name": "Network topology and connectivity"
+        },
+        {
+            "name": "Operations management"
+        },
+        {
+            "name": "Platform Automation"
+        },
+        {
+            "name": "Security"
+        }
+    ],
+    "waf": [
+        {
+            "name": "Reliability"
+        },
+        {
+            "name": "Security"
+        },
+        {
+            "name": "Cost"
+        },
+        {
+            "name": "Operations"
+        },
+        {
+            "name": "Performance"
+        }
+    ],
+    "yesno": [
+        {
+            "name": "Yes"
+        },
+        {
+            "name": "No"
+        }
+    ],
+    "status": [
+        {
+            "name": "Not verified",
+            "description": "This check has not been looked at yet"
+        },
+        {
+            "name": "Open",
+            "description": "There is an action item associated to this check"
+        },
+        {
+            "name": "Fulfilled",
+            "description": "This check has been verified, and there are no further action items associated to it"
+        },
+        {
+            "name": "Risk accepted",
+            "description": "Recommendation understood, but not needed by current requirements"
+        },
+        {
+            "name": "N/A",
+            "description": "Not applicable for current design"
+        }
+    ],
+    "severities": [
+        {
+            "name": "High"
+        },
+        {
+            "name": "Medium"
+        },
+        {
+            "name": "Low"
+        }
+    ],
+    "metadata": {
+        "name": "App Service",
+        "state": "preview",
+        "timestamp": "February 20, 2024"
+    }
+  }

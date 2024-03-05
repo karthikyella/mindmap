@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "category": "Azure SQL DB",
+      "subcategory": "Backup",
+      "text": "Automatics PITR (Point in Time) Backups",
+      "description": "What type of Storage Redundancy do you want? LRS OR GRS?",
+      "waf": "Reliability",
+      "guid": "985b859c-773e-47e2-9162-3b775a917e1f",
+      "id": "48.3.1",
+      "link": "https://learn.microsoft.com/azure/azure-sql/database/automated-backups-overview?view=azuresql#backup-storage-redundancy"
+    },
+    {
+      "category": "Azure SQL DB",
+      "subcategory": "Backup",
+      "text": "Long Term Retention",
+      "waf": "Reliability",
+      "guid": "348ff364-d27d-442e-abbb-c868155abb91",
+      "id": "48.3.2",
+      "link": "https://learn.microsoft.com/security/benchmark/azure/mcsb-asset-management#am-2-use-only-approved-services"
+    },
+    {
+      "category": "Azure SQL DB",
+      "subcategory": "Backup",
+      "text": "Geo-Backup",
+      "waf": "Reliability",
+      "guid": "64e9909a-e28c-484c-93b6-b7808bafe6c4",
+      "id": "48.3.3",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview"
+    },
+    {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": "Failover Groups",
+      "waf": "Reliability",
+      "guid": "2149d413-a923-4c35-94d1-1028ac6aae01",
+      "id": "48.3.4",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview#azure-rbac-permissions-in-azure-policy"
+    },
+    {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": "Geo-Replication",
+      "description": "Use Active Geo-Replication to create a readable secondary in a separate region",
+      "waf": "Reliability",
+      "guid": "e6a84de5-df43-4d29-a248-1718d5d1e5f6",
+      "id": "48.3.5",
+      "link": "https://learn.microsoft.com/azure/azure-sql/database/active-geo-replication-overview?source=recommendations&view=azuresql"
+    },
+    {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": "Maintenance Windows",
+      "waf": "Reliability",
+      "guid": "25659e35-580e-4782-99c9-31212d027fe4",
+      "id": "48.3.6",
+      "link": "https://learn.microsoft.com/azure/automation/automation-solution-vm-management-config"
+    }
+  ]
+}
+

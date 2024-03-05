@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "category": "SQL on VM",
+      "subcategory": "Backup",
+      "text": "Azure Backup Service ",
+      "description": "Take a backup of the database and save it ",
+      "waf": "Reliability",
+      "guid": "a96c96ad-8840-48f3-9273-4c886ba28021",
+      "id": "48.1.1"
+    },
+    {
+      "category": "SQL on VM",
+      "subcategory": "Infrastructure",
+      "text": "Availablity Groups ",
+      "waf": "Reliability",
+      "guid": "45911475-e38e-4530-accc-d979266bcca2",
+      "id": "48.1.2"
+    },
+    {
+      "category": "SQL on VM",
+      "subcategory": "Extensions",
+      "text": "SQL IAAS Extension",
+      "waf": "Reliability",
+      "guid": "75faa1ab-f39d-495d-94c7-c8919cb1f7d5",
+      "id": "48.1.3",
+      "link": "https://learn.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management?view=azuresql&tabs=azure-powershell"
+    },
+    {
+      "category": "SQL on VM",
+      "subcategory": "Infrastructure",
+      "text": "Leverage Premium Disks",
+      "waf": "Reliability",
+      "guid": "325ae524-ba34-4d46-a5e2-2139bd7bb012",
+      "id": "48.1.4",
+      "link": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-microsoft-customer-agreement#design-recommendations"
+    },
+    {
+      "category": "Best Practices",
+      "subcategory": "&nbsp",
+      "text": "Leverage Availability Zones where regionally applicable, and of course if the service offers it.",
+      "waf": "Reliability",
+      "guid": "f7b95e06-e154-4e3a-a359-2829e6e20617",
+      "id": "48.4.1",
+      "link": "https://learn.microsoft.com/azure/azure-sql/database/high-availability-sla?view=azuresql&tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability"
+    },
+    {
+      "category": "Best Practices",
+      "subcategory": "&nbsp",
+      "text": "Run Business Critical or Premium  tiers for applications that require  highest SLA",
+      "waf": "Reliability",
+      "guid": "3676af46-691f-4893-9ada-42323e138105",
+      "id": "48.4.2",
+      "training": "https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview",
+      "link": "https://learn.microsoft.com/azure/azure-sql/database/high-availability-sla?view=azuresql&tabs=azure-powershell#premium-and-business-critical-service-tier-zone-redundant-availability"
+    }
+  ]
+}
+

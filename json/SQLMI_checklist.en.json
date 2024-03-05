@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "category": "SQL MI",
+      "subcategory": "Backup",
+      "text": "Automatics PITR (Point in Time) Backups",
+      "description": "What type of Storage Redundancy do you want? LRS OR GRS?",
+      "waf": "Reliability",
+      "guid": "1eb2ec14-eea6-4e59-b8d9-a2edb217e676",
+      "id": "48.2.1",
+      "link": "https://learn.microsoft.com/azure/governance/policy/overview"
+    },
+    {
+      "category": "SQL MI",
+      "subcategory": "Backup",
+      "text": "Long Term Retention",
+      "description": "Leverage GRS storage type for the  database �Backup Storage  Redundancy.�",
+      "waf": "Reliability",
+      "guid": "abf669ca-48e5-4a96-b222-3ece8cb12318",
+      "id": "48.2.2",
+      "link": "https://learn.microsoft.com/azure/azure-sql/database/automated-backups-overview?view=azuresql#backup-storage-redundancy"
+    },
+    {
+      "category": "SQL MI",
+      "subcategory": "Backup",
+      "text": "Geo-Backup",
+      "description": "Use Active Geo-Replication to create a readable secondary in a separate region",
+      "waf": "Reliability",
+      "guid": "ca501701-58e3-4fb3-aa3c-2de7f3165c3a",
+      "id": "48.2.3",
+      "link": "https://learn.microsoft.com/azure/azure-sql/database/active-geo-replication-overview?source=recommendations&view=azuresql"
+    },
+    {
+      "category": "SQL MI",
+      "subcategory": "Maintenance ",
+      "text": "Maintenance Windows",
+      "waf": "Reliability",
+      "guid": "87a05b7a-2099-449b-ba47-778f24d11678",
+      "id": "48.2.4",
+      "link": "https://learn.microsoft.com/azure/azure-sql/database/maintenance-window?view=azuresql"
+    }
+  ]
+}
+

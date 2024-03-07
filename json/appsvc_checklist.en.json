@@ -34,7 +34,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/reliability/migrate-app-service"
         },
         {
-            "category": "Operations management",
+            "category": "Operations",
             "subcategory": "Monitoring",
             "text": "Implement health checks",
             "waf": "Reliability",
@@ -45,7 +45,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check"
         },
         {
-            "category": "Operations management",
+            "category": "Operations",
             "subcategory": "Multi-tenant service",
             "text": "Refer to backup and restore best practices for Azure App Service",
             "waf": "Reliability",
@@ -100,7 +100,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/azure-functions/dedicated-plan#always-on"
         },
         {
-            "category": "Operations management",
+            "category": "Operations",
             "subcategory": "Monitoring",
             "text": "Monitor App Service instances using Health checks",
             "waf": "Reliability",
@@ -111,7 +111,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/app-service/monitor-instances-health-check"
         },
         {
-            "category": "Operations management",
+            "category": "Operations",
             "subcategory": "Monitoring",
             "text": "Monitor availability and responsiveness of web app or website using Application Insights availability tests",
             "waf": "Reliability",
@@ -122,7 +122,7 @@
             "link": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/availability-overview"
         },
         {
-            "category": "Operations management",
+            "category": "Operations",
             "subcategory": "Monitoring",
             "text": "Use Application Insights Standard test to monitor availability and responsiveness of web app or website",
             "waf": "Reliability",
@@ -144,7 +144,7 @@
             "name": "BC and DR"
         },
         {
-            "name": "Operations management"
+            "name": "Operations"
         },
         {
             "name": "Platform Automation"

@@ -1,13 +1,86 @@
 {
   "items": [
     {
-      "category": "Best Practice",
-      "subcategory": "HandBook",
+      "category": "Operations Management",
+      "subcategory": "Best Practice",
       "text": "Leverage FTA Resillency HandBook",
       "waf": "Reliability",
-      "guid": "925398e6-da9d-437d-ac43-bc6cd1d79a9b",
-      "id": "31.1"
+      "guid": "32d41e36-11c8-417b-8afb-c410e43a18a8",
+      "id": "31.1",
+      "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-AEH_v1.docx"
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Best Practice",
+      "text": "Leverage Availability Zones if regionally applicable (this will be turned on automatically for a new EH namespace created from the portal with Premium, Dedicated, or Standard SKUs in a zone-enabled region)",
+      "description": "Both the EH metadata and the event data itself are replicated across zones",
+      "waf": "Reliability",
+      "guid": "de39ac0e-7c28-4dc9-9565-7202bff4564b",
+      "id": "31.2",
+      "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-availability-and-consistency?tabs=dotnet"
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Best Practice",
+      "text": "Use the Premium or Dedicated SKUs   for predicable performance",
+      "waf": "Reliability",
+      "guid": "0d934a35-9c36-43e7-bd61-613a3649906e",
+      "id": "31.3",
+      "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-premium-overview"
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Geo Disaster Recovery",
+      "text": "Active/Passive",
+      "description": "The built-in geo-disaster recovery feature, when enabled, ensures that the entire configuration of anamespace (Event Hubs, Consumer Groups and settings) is continuously replicated from a primary namespace to a secondary namespace, and it allows a once-only failover move from the primary to the secondary at any time.",
+      "waf": "Reliability",
+      "guid": "bae38ead-53cc-47de-8d8a-aab3571549ab",
+      "id": "31.4",
+      "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-geo-dr?tabs=portal"
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Geo Disaster Recovery",
+      "text": "Active/Passive feature is designed to make it easier to recover from and abandon a failed Azure region without having to change application configurations",
+      "waf": "Reliability",
+      "guid": "8153d89f-89dc-47b4-9be2-b1a27f7b9e91",
+      "id": "31.5"
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Geo Disaster Recovery",
+      "text": "Active/Active",
+      "description": "Should be used for DR configurations where an outage or loss of event data in the downed region cannot be tolerated. For these cases, follow the linked replication guidance and do not use the built-in geo-disaster recovery capability (active/passive)",
+      "waf": "Reliability",
+      "guid": "be1f38cf-03a8-422c-b463-cbbbc8ac299e",
+      "id": "31.6",
+      "link": "https://learn.microsoft.com/azure/event-hubs/configure-event-hub-properties"
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Geo Disaster Recovery",
+      "text": "With Active/Active, Maintain multiple Event Hubs in different regions and namespaces, and events will be replicated between the hubs",
+      "waf": "Reliability",
+      "guid": "bc91a43d-a0da-4e2c-a881-470607c1cbaf",
+      "id": "31.7"
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Best Practice",
+      "text": "Retry Logic is baked into the cake and native to the service",
+      "waf": "Reliability",
+      "guid": "e614658d-d458-4e92-9139-b821102dbd6e",
+      "id": "31.8",
+      "cost": 1
+    },
+    {
+      "category": "Operations Management",
+      "subcategory": "Best Practice",
+      "text": "Design Resilient Event Hubs",
+      "waf": "Reliability",
+      "guid": "af11e6f8-43e5-42f4-922d-928c1b1cd521",
+      "id": "31.9",
+      "cost": 1
     }
   ]
 }
-

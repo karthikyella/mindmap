@@ -2,84 +2,58 @@
   "items": [
     {
       "category": "Operations Management",
-      "subcategory": "Best Practice",
+      "subcategory": "Best Practices",
       "text": "Leverage FTA Resillency HandBook",
       "waf": "Reliability",
-      "guid": "6bb28021-45a1-4147-9e39-f530acccd979",
+      "guid": "8739748b-662d-46c1-9f51-2965498f6dfe",
       "id": "31.1",
       "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-AEH_v1.docx"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Best Practice",
-      "text": "Leverage Availability Zones if regionally applicable (this will be turned on automatically for a new EH namespace created from the portal with Premium, Dedicated, or Standard SKUs in a zone-enabled region)",
-      "description": "Both the EH metadata and the event data itself are replicated across zones",
+      "subcategory": "Zone Redudancy",
+      "text": "Leverage Availability Zones if regionally applicable",
+      "description": " This will be turned on automatically for a new EH namespace created from the portal with Premium, Dedicated, or Standard SKUs in a zone-enabled region. Both the EH metadata and the event data itself are replicated across zones",
       "waf": "Reliability",
-      "guid": "366bcda3-750a-4b2a-a039-d95d54d7c892",
+      "guid": "237de143-b16c-431d-9aa9-b64604489a80",
       "id": "31.2",
-      "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-availability-and-consistency?tabs=dotnet"
+      "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-premium-overview#high-availability-with-availability-zones"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Best Practice",
+      "subcategory": "Best Practices",
       "text": "Use the Premium or Dedicated SKUs   for predicable performance",
       "waf": "Reliability",
-      "guid": "9db107d5-325a-4e62-9ca4-4d4685e2223a",
+      "guid": "42d78e79-d17b-473b-82a5-a67e7a8ed4b3",
       "id": "31.3",
-      "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-premium-overview"
+      "link": "https://learn.microsoft.com/azure/event-hubs/compare-tiers"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Geo Disaster Recovery",
-      "text": "Active/Passive",
-      "description": "The built-in geo-disaster recovery feature, when enabled, ensures that the entire configuration of anamespace (Event Hubs, Consumer Groups and settings) is continuously replicated from a primary namespace to a secondary namespace, and it allows a once-only failover move from the primary to the secondary at any time.",
+      "subcategory": "Geo Redudancy",
+      "text": "Plan for Geo Disaster Recovery using Active Passive configuration",
+      "description": "The built-in geo-disaster recovery feature, when enabled, ensures that the entire configuration of anamespace (Event Hubs, Consumer Groups and settings) is continuously replicated from a primary namespace to a secondary namespace, and it allows a once-only failover move from the primary to the secondary at any time. Active/Passive feature is designed to make it easier to recover from and abandon a failed Azure region without having to change application configurations",
       "waf": "Reliability",
-      "guid": "ce7bb123-07ca-45f0-9f15-4e3aa3692829",
+      "guid": "0e38c3e2-9812-4b23-93ce-ee079b598def",
       "id": "31.4",
       "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-geo-dr?tabs=portal"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Geo Disaster Recovery",
-      "text": "Active/Passive feature is designed to make it easier to recover from and abandon a failed Azure region without having to change application configurations",
+      "subcategory": "Geo Redudancy",
+      "text": "For Business Critical Applications, use Active Active configuration",
+      "description": "Should be used for DR configurations where an outage or loss of event data in the downed region cannot be tolerated. For these cases, follow the replication guidance and do not use the built-in geo-disaster recovery capability (active/passive). With Active/Active, Maintain multiple Event Hubs in different regions and namespaces, and events will be replicated between the hubs",
       "waf": "Reliability",
-      "guid": "e7e21618-3687-4af4-9791-f8935bda4332",
-      "id": "31.5"
-    },
-    {
-      "category": "Operations Management",
-      "subcategory": "Geo Disaster Recovery",
-      "text": "Active/Active",
-      "description": "Should be used for DR configurations where an outage or loss of event data in the downed region cannot be tolerated. For these cases, follow the linked replication guidance and do not use the built-in geo-disaster recovery capability (active/passive)",
-      "waf": "Reliability",
-      "guid": "4e138115-2318-41aa-9174-26944ff8ae7d",
+      "guid": "d5972cd4-cd21-4b08-a137-f5e6c4cfd3d5",
       "id": "31.6",
-      "link": "https://learn.microsoft.com/azure/event-hubs/configure-event-hub-properties"
+      "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-federation-overview"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Geo Disaster Recovery",
-      "text": "With Active/Active, Maintain multiple Event Hubs in different regions and namespaces, and events will be replicated between the hubs",
-      "waf": "Reliability",
-      "guid": "7e474317-6c8b-4cbf-95bb-e619e8a03f97",
-      "id": "31.7"
-    },
-    {
-      "category": "Operations Management",
-      "subcategory": "Best Practice",
-      "text": "Retry Logic is baked into the cake and native to the service",
-      "waf": "Reliability",
-      "guid": "879424d6-2678-46d6-8a96-c96ad8851904",
-      "id": "31.8",
-      "cost": 1,
-      "link": "https://learn.microsoft.com/azure/architecture/best-practices/retry-service-specific#event-hubs"
-    },
-    {
-      "category": "Operations Management",
-      "subcategory": "Best Practice",
+      "subcategory": "Resillency",
       "text": "Design Resilient Event Hubs",
       "waf": "Reliability",
-      "guid": "82735c98-6bb2-4802-845a-11475e39f530",
+      "guid": "03547c24-47ec-4661-98a7-100f1ce16dd3",
       "id": "31.9",
       "cost": 1,
       "link": "https://learn.microsoft.com/azure/architecture/serverless/event-hubs-functions/resilient-design"

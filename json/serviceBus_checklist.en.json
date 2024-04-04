@@ -5,7 +5,7 @@
       "subcategory": "Best Practices",
       "text": "Leverage FTA Handbook",
       "waf": "Reliability",
-      "guid": "8639648b-662d-46c1-9f51-2965398e6ded",
+      "guid": "1fc3fc14-eea6-4e69-b8d9-a3eec218e687",
       "id": "29.1",
       "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-ASB_v1.docx"
     },
@@ -13,167 +13,145 @@
       "category": "Operations Management",
       "subcategory": "Best Practices",
       "text": "Leverage Availability Zones if regionally applicable",
-      "description": "This will be turned on automatically for a new SB namespace created from the portal with the Premium SKUs in a zone-enabled region",
+      "description": "This will be turned on automatically for a new SB namespace created from the portal with the Premium SKUs in a zone-enabled region. Both the Service Bus metadata and the messages data are replicated across datacenters in the availability zones configuration",
       "waf": "Reliability",
       "guid": "ab067acb-49e5-4b96-8332-4fdf8cc23318",
       "id": "29.2",
-      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-outages-disasters"
+      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-outages-disasters#availability-zones"
     },
     {
       "category": "Operations Management",
       "subcategory": "Geo-Disaster Recovery",
-      "text": "Metadata replication",
+      "text": "Plan for Metadata replication during regional failure",
       "description": "If enabled, Implements namespace metadata replication to a secondary region. Does not replicate queue/topic message data. Premium sku only.",
       "waf": "Reliability",
       "guid": "da611712-69f4-40b4-aa3d-3ef703276d4b",
       "id": "29.3",
-      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-geo-dr"
+      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-outages-disasters#geo-disaster-recovery"
     },
     {
       "category": "Operations Management",
       "subcategory": "Geo-Disaster Recovery",
-      "text": "Message replication",
-      "description": "If an outage cannot be tolerated, do not use the build-in metadata replication option.",
+      "text": "Plan for Message replication during regional failure",
+      "description": "If an outage cannot be tolerated, do not use the build-in metadata replication option. Leverage a replication pattern to replicate Service Bus messages across two or more sets of cross-region namespaces",
       "waf": "Reliability",
       "guid": "98b15b8a-219a-44ac-bb58-879024d22678",
       "id": "29.4",
-      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-geo-dr"
+      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-federation-overview"
     },
     {
       "category": "Operations Management",
       "subcategory": "Best Practices",
-      "text": "Partitioning",
+      "text": "For applications which require high throughput, use Patritioning ",
       "description": "Azure Service Bus uses a message broker to handle messages that are sent to a Service Bus queue or topic. By default, all messages that are sent to a queue or topic are handled by the same message broker process. This architecture can place a limitation on the overall throughput of the message queue. However, you can also partition a queue or topic when it is created",
       "waf": "Reliability",
       "guid": "6d20b56c-57ba-4591-89bf-8e8f5c586c7d",
       "id": "29.5",
-      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-partitioning"
+      "link": "https://learn.microsoft.com/azure/architecture/best-practices/data-partitioning-strategies#partitioning-azure-service-bus"
     },
     {
       "category": "Operations Management",
       "subcategory": "Best Practices",
-      "text": "Retry Logic is baked into the cake and native to the service",
-      "waf": "Reliability",
-      "guid": "9cdc16ac-c075-4ee9-a141-a8889579e76b",
-      "id": "29.6"
-    },
-    {
-      "category": "Operations Management",
-      "subcategory": "Best Practices",
-      "text": "Best practices for insulating applications against Service Bus outages and disasters",
-      "waf": "Reliability",
-      "guid": "897e710a-7da7-4be9-a66d-15d3c49da97c",
-      "id": "29.7"
-    },
-    {
-      "category": "Operations Management",
-      "subcategory": "Checklist",
       "text": "Evaluate Premier-tier benefits of Azure Service Bus",
       "waf": "Reliability",
-      "guid": "b3d1325a-b225-4c6f-9e06-85edddea8a4b",
-      "id": "29.8",
-      "cost": 1
+      "guid": "25759e35-680e-4782-99c9-32213d027ff4",
+      "id": "29.6",
+      "cost": 1,
+      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-outages-disasters"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Ensure that Service Bus Messaging Exceptions are handled properly",
       "waf": "Reliability",
-      "guid": "7cdeb3c6-1fc3-4fc1-9eea-6e69d8d9a3ee",
-      "id": "29.9",
-      "cost": 1
+      "guid": "12f70993-0631-4583-8ee7-9d6c6d363206",
+      "id": "29.7",
+      "cost": 1,
+      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-messaging-exceptions"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Connect to Service Bus with the Advanced Messaging Queue Protocol (AMQP) and use Service Endpoints or Private Endpoints when possible.",
       "waf": "Reliability",
-      "guid": "c218e687-ab06-47ac-a49e-5b9603324fdf",
-      "id": "29.1",
-      "cost": 1
+      "guid": "5b7abae3-4aad-45e8-a79e-2e86667313c5",
+      "id": "29.8",
+      "cost": 1,
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/reliability#checklist"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Review the Best Practices for performance improvements using Service Bus Messaging",
       "waf": "Reliability",
-      "guid": "8cc23318-da61-4171-869f-40b4aa3d3ef7",
-      "id": "29.11",
-      "cost": 1
+      "guid": "05675c5e-985b-4859-a774-f7e371623b77",
+      "id": "29.9",
+      "cost": 1,
+      "link": "https://learn.microsoft.com/azure/service-bus-messaging/service-bus-performance-improvements?tabs=net-standard-sdk-2"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Implement geo-replication on the sender and receiver side to protect against outages and disasters",
       "waf": "Reliability",
-      "guid": "8b9fe5c4-2049-4d41-9a92-3c3474d11028",
-      "id": "29.12",
-      "cost": 1
+      "guid": "5a917e1f-349f-4036-9d28-d42e8bbbc868",
+      "id": "29.1",
+      "cost": 1,
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/operational-excellence"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
-      "text": "Configure Geo-Disaster",
-      "waf": "Reliability",
-      "guid": "ac6aae01-e6a8-44de-9df4-3d1992481718",
-      "id": "29.13",
-      "cost": 1
-    },
-    {
-      "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "If you need mission-critical messaging with queues and topics, Service Bus Premium is recommended with Geo-Disaster Recovery.",
       "waf": "Reliability",
-      "guid": "d5d1e5f6-2565-49d3-958f-d77249c93111",
-      "id": "29.14"
+      "guid": "255abc91-64e9-4a09-ae28-c84c43b6b781",
+      "id": "29.11",
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/reliability#checklist"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
-      "text": "Configure Zone Redundancy in the Service Bus namespace (only available with Premium tier)",
-      "waf": "Reliability",
-      "guid": "2d027fe4-12f7-4098-9f63-04722ee69d6b",
-      "id": "29.15"
-    },
-    {
-      "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Implement high availability for the Service Bus namespace",
       "waf": "Reliability",
-      "guid": "5c2622f5-4b69-4bad-94aa-d5e8c78e1d76",
-      "id": "29.16"
+      "guid": "8ba0e6c4-2149-4d41-9a92-3c3574d11029",
+      "id": "29.12",
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/reliability#checklist"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Ensure related messages are delivered in guaranteed order",
       "waf": "Reliability",
-      "guid": "667313c4-0567-44b5-b985-b859c773e7e2",
-      "id": "29.17"
+      "guid": "bd6aaf11-e6b8-44ee-9df4-3d2992481718",
+      "id": "29.13",
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/reliability#checklist"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Evaluate different Java Messaging Service (JMS) features through the JMS API",
       "waf": "Reliability",
-      "guid": "61623b76-5a91-47e1-b348-ef354c27d42e",
-      "id": "29.18"
+      "guid": "d5d1e5f6-2575-49e3-9680-e78249c93221",
+      "id": "29.14",
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/reliability#checklist"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Use .NET Nuget packages to communicate with Service Bus messaging entities",
       "waf": "Reliability",
-      "guid": "8bbac868-155a-4bb9-863e-9908ae28c84c",
-      "id": "29.19"
+      "guid": "3d027ff4-12f7-4099-9063-15832ee79d6c",
+      "id": "29.15",
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/reliability#checklist"
     },
     {
       "category": "Operations Management",
-      "subcategory": "Checklist",
+      "subcategory": "Best Practices",
       "text": "Implement resilience for transient fault handling when sending or receiving messages",
       "waf": "Reliability",
-      "guid": "33b6b780-8b9f-4e5c-9204-9d413a923c34",
-      "id": "29.2"
+      "guid": "6d363206-5b7a-4bae-94aa-d5e8c79e2e86",
+      "id": "29.16",
+      "link": "https://learn.microsoft.com/azure/well-architected/service-guides/service-bus/reliability#checklist"
     }
   ]
 }

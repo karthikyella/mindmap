@@ -5,7 +5,7 @@
       "subcategory": "Best Practices",
       "text": "Leverage FTA Resillency HandBook",
       "waf": "Reliability",
-      "guid": "8739748b-662d-46c1-9f51-2965498f6dfe",
+      "guid": "cb8eb8c0-aa62-4a25-a495-6eaa8dc4a243",
       "id": "31.1",
       "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-AEH_v1.docx"
     },
@@ -15,7 +15,7 @@
       "text": "Leverage Availability Zones if regionally applicable",
       "description": " This will be turned on automatically for a new EH namespace created from the portal with Premium, Dedicated, or Standard SKUs in a zone-enabled region. Both the EH metadata and the event data itself are replicated across zones",
       "waf": "Reliability",
-      "guid": "237de143-b16c-431d-9aa9-b64604489a80",
+      "guid": "de3aad1e-8c38-4ec9-9666-7313c005674b",
       "id": "31.2",
       "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-premium-overview#high-availability-with-availability-zones"
     },
@@ -24,7 +24,7 @@
       "subcategory": "Best Practices",
       "text": "Use the Premium or Dedicated SKUs   for predicable performance",
       "waf": "Reliability",
-      "guid": "42d78e79-d17b-473b-82a5-a67e7a8ed4b3",
+      "guid": "1e944a45-9c37-43e7-bd61-623b365a917e",
       "id": "31.3",
       "link": "https://learn.microsoft.com/azure/event-hubs/compare-tiers"
     },
@@ -34,7 +34,7 @@
       "text": "Plan for Geo Disaster Recovery using Active Passive configuration",
       "description": "The built-in geo-disaster recovery feature, when enabled, ensures that the entire configuration of anamespace (Event Hubs, Consumer Groups and settings) is continuously replicated from a primary namespace to a secondary namespace, and it allows a once-only failover move from the primary to the secondary at any time. Active/Passive feature is designed to make it easier to recover from and abandon a failed Azure region without having to change application configurations",
       "waf": "Reliability",
-      "guid": "0e38c3e2-9812-4b23-93ce-ee079b598def",
+      "guid": "cbe48ebe-54cd-47df-8e8b-bac3581559bb",
       "id": "31.4",
       "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-geo-dr?tabs=portal"
     },
@@ -44,8 +44,8 @@
       "text": "For Business Critical Applications, use Active Active configuration",
       "description": "Should be used for DR configurations where an outage or loss of event data in the downed region cannot be tolerated. For these cases, follow the replication guidance and do not use the built-in geo-disaster recovery capability (active/passive). With Active/Active, Maintain multiple Event Hubs in different regions and namespaces, and events will be replicated between the hubs",
       "waf": "Reliability",
-      "guid": "d5972cd4-cd21-4b08-a137-f5e6c4cfd3d5",
-      "id": "31.6",
+      "guid": "9153e990-8aed-48c4-9ce3-b2b3808b9fa1",
+      "id": "31.5",
       "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-federation-overview"
     },
     {
@@ -53,8 +53,8 @@
       "subcategory": "Resillency",
       "text": "Design Resilient Event Hubs",
       "waf": "Reliability",
-      "guid": "03547c24-47ec-4661-98a7-100f1ce16dd3",
-      "id": "31.9",
+      "guid": "cf1049d0-13a9-423c-b474-dbcbd8ac2aae",
+      "id": "31.6",
       "cost": 1,
       "link": "https://learn.microsoft.com/azure/architecture/serverless/event-hubs-functions/resilient-design"
     }

@@ -5,8 +5,9 @@
       "subcategory": "Best Practices",
       "text": "Leverage FTA Resillency HandBook",
       "waf": "Reliability",
-      "guid": "cb8eb8c0-aa62-4a25-a495-6eaa8dc4a243",
+      "guid": "31d41e36-11c8-417b-8afb-c410d4391898",
       "id": "31.1",
+      "severity": "Medium",
       "link": "https://github.com/Azure/fta-resiliencyplaybooks/blob/main/paas-foundations-playbooks-AEH_v1.docx"
     },
     {
@@ -15,8 +16,9 @@
       "text": "Leverage Availability Zones if regionally applicable",
       "description": " This will be turned on automatically for a new EH namespace created from the portal with Premium, Dedicated, or Standard SKUs in a zone-enabled region. Both the EH metadata and the event data itself are replicated across zones",
       "waf": "Reliability",
-      "guid": "de3aad1e-8c38-4ec9-9666-7313c005674b",
+      "guid": "f15bce21-9e4a-40eb-9787-9424d226786d",
       "id": "31.2",
+      "severity": "High",
       "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-premium-overview#high-availability-with-availability-zones"
     },
     {
@@ -24,8 +26,9 @@
       "subcategory": "Best Practices",
       "text": "Use the Premium or Dedicated SKUs   for predicable performance",
       "waf": "Reliability",
-      "guid": "1e944a45-9c37-43e7-bd61-623b365a917e",
+      "guid": "20b56c56-ad58-4519-8f82-735c586bb281",
       "id": "31.3",
+      "severity": "Medium",
       "link": "https://learn.microsoft.com/azure/event-hubs/compare-tiers"
     },
     {
@@ -34,8 +37,9 @@
       "text": "Plan for Geo Disaster Recovery using Active Passive configuration",
       "description": "The built-in geo-disaster recovery feature, when enabled, ensures that the entire configuration of anamespace (Event Hubs, Consumer Groups and settings) is continuously replicated from a primary namespace to a secondary namespace, and it allows a once-only failover move from the primary to the secondary at any time. Active/Passive feature is designed to make it easier to recover from and abandon a failed Azure region without having to change application configurations",
       "waf": "Reliability",
-      "guid": "cbe48ebe-54cd-47df-8e8b-bac3581559bb",
+      "guid": "dc15a1c0-75ee-49f1-90ac-ccd579376bcd",
       "id": "31.4",
+      "severity": "High",
       "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-geo-dr?tabs=portal"
     },
     {
@@ -44,8 +48,9 @@
       "text": "For Business Critical Applications, use Active Active configuration",
       "description": "Should be used for DR configurations where an outage or loss of event data in the downed region cannot be tolerated. For these cases, follow the replication guidance and do not use the built-in geo-disaster recovery capability (active/passive). With Active/Active, Maintain multiple Event Hubs in different regions and namespaces, and events will be replicated between the hubs",
       "waf": "Reliability",
-      "guid": "9153e990-8aed-48c4-9ce3-b2b3808b9fa1",
+      "guid": "6e31b67d-67ba-4591-89c0-9e805d597c7e",
       "id": "31.5",
+      "severity": "Medium",
       "link": "https://learn.microsoft.com/azure/event-hubs/event-hubs-federation-overview"
     },
     {
@@ -53,10 +58,97 @@
       "subcategory": "Resillency",
       "text": "Design Resilient Event Hubs",
       "waf": "Reliability",
-      "guid": "cf1049d0-13a9-423c-b474-dbcbd8ac2aae",
+      "guid": "9ced16ad-d186-4f0a-a241-a999a68af77c",
       "id": "31.6",
       "cost": 1,
+      "severity": "Medium",
       "link": "https://learn.microsoft.com/azure/architecture/serverless/event-hubs-functions/resilient-design"
     }
-  ]
+  ],
+  "categories": [ 
+    {
+      "name": "Identity and Access Management"
+  },
+  {
+      "name": "Network Topology and Connectivity"
+  },
+  {
+      "name": "BC and DR"
+  },
+  {
+      "name": "Governance and Security"
+  },
+  {
+      "name": "Cost Governance"
+  },
+  {
+      "name": "Operations Management"
+  },
+  {
+      "name": "Application Deployment"
+  }
+  ],
+  "waf": [
+    {
+      "name": "Reliability"
+    },
+    {
+      "name": "Security"
+    },
+    {
+      "name": "Cost"
+    },
+    {
+      "name": "Operations"
+    },
+    {
+      "name": "Performance"
+    }
+  ],
+  "yesno": [
+    {
+      "name": "Yes"
+    },
+    {
+      "name": "No"
+    }
+  ],
+  "status": [
+    {
+      "name": "Not verified",
+      "description": "This check has not been looked at yet"
+    },
+    {
+      "name": "Open",
+      "description": "There is an action item associated to this check"
+    },
+    {
+      "name": "Fulfilled",
+      "description": "This check has been verified, and there are no further action items associated to it"
+    },
+    {
+      "name": "Not required",
+      "description": "Recommendation understood, but not needed by current requirements"
+    },
+    {
+      "name": "N/A",
+      "description": "Not applicable for current design"
+    }
+  ],
+  "severities": [
+    {
+      "name": "High"
+    },
+    {
+      "name": "Medium"
+    },
+    {
+      "name": "Low"
+    }
+  ],
+  "metadata": {
+    "name": "Use the 'Import latest checklist' button to get the latest version of a review checklist",
+    "state": "&nbsp",
+    "timestamp": "04/04/2024 22:25:00"
+  }
 }

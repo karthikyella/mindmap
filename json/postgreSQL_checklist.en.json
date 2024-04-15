@@ -1,41 +1,121 @@
 {
   "items": [
     {
-      "category": "High Availablity",
+      "category": "Operations Management",
       "subcategory": "Best Practices",
       "text": "Leverage Flexible Server",
       "waf": "Reliability",
-      "guid": "639637a5-5119-4c08-b805-955387e9ced1",
+      "guid": "65285269-441c-44bf-9d3e-0844276d4bdc",
       "id": "33.1",
+      "severity": "Medium",
       "link": "https://learn.microsoft.com/azure/postgresql/flexible-server/overview"
     },
     {
-      "category": "High Availablity",
+      "category": "Operations Management",
       "subcategory": "Best Practices",
       "text": "Leverage Availability Zones where regionally applicable",
       "waf": "Reliability",
-      "guid": "66dd172a-09b2-441a-a98a-646e738997e8",
+      "guid": "016ccf31-ae5a-41eb-9888-9535e227896d",
       "id": "33.2",
+      "severity": "High",
       "link": "https://learn.microsoft.com/azure/postgresql/flexible-server/overview#architecture-and-high-availability"
     },
     {
-      "category": "High Availablity",
+      "category": "Operations Management",
       "subcategory": "Best Practices",
       "text": "Leverage cross-region read replicas for BCDR",
       "waf": "Reliability",
-      "guid": "d8739748-b662-4d6c-85f5-12965498f6df",
+      "guid": "31b67c67-be59-4519-8083-845d587cb391",
       "id": "33.3",
+      "severity": "Medium",
       "link": "https://learn.microsoft.com/azure/postgresql/single-server/concepts-business-continuity#cross-region-read-replicas"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Identity and Access Management"
     },
     {
-      "category": "High Availablity",
-      "subcategory": "Best Practices",
-      "text": "Use geo-restore for restoring geo-redundant backups",
-      "waf": "Reliability",
-      "guid": "e237de14-3b16-4c31-b7aa-9b64604489a8",
-      "id": "33.4",
-      "link": "https://learn.microsoft.com/azure/postgresql/single-server/concepts-business-continuity#geo-restore"
+      "name": "Network Topology and Connectivity"
+    },
+    {
+      "name": "BC and DR"
+    },
+    {
+      "name": "Governance and Security"
+    },
+    {
+      "name": "Cost Governance"
+    },
+    {
+      "name": "Operations Management"
+    },
+    {
+      "name": "Application Deployment"
     }
-  ]
+  ],
+  "waf": [
+    {
+      "name": "Reliability"
+    },
+    {
+      "name": "Security"
+    },
+    {
+      "name": "Cost"
+    },
+    {
+      "name": "Operations"
+    },
+    {
+      "name": "Performance"
+    }
+  ],
+  "yesno": [
+    {
+      "name": "Yes"
+    },
+    {
+      "name": "No"
+    }
+  ],
+  "status": [
+    {
+      "name": "Not verified",
+      "description": "This check has not been looked at yet"
+    },
+    {
+      "name": "Open",
+      "description": "There is an action item associated to this check"
+    },
+    {
+      "name": "Fulfilled",
+      "description": "This check has been verified, and there are no further action items associated to it"
+    },
+    {
+      "name": "Not required",
+      "description": "Recommendation understood, but not needed by current requirements"
+    },
+    {
+      "name": "N/A",
+      "description": "Not applicable for current design"
+    }
+  ],
+  "severities": [
+    {
+      "name": "High"
+    },
+    {
+      "name": "Medium"
+    },
+    {
+      "name": "Low"
+    }
+  ],
+  "metadata": {
+    "name": "PostgreSQL Review Checklist",
+    "state": "Preview",
+    "waf": "Reliability",
+    "timestamp": "April 15, 2024"
+  }
 }
-

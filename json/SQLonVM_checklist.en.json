@@ -47,7 +47,16 @@
     },
    {
       "category": "SQL on VM",
-      "subcategory": "Extensions",
+      "subcategory": "Cluster Configuration",
+      "text": "When using the virtual network name (VNN) and Azure Load Balancer to connect to your HADR solution, specify MultiSubnetFailover = true in the connection string, even if your cluster only spans one subnet. ( If one is implementing FCI or AG)( If one is implementing FCI or AG)",
+      "waf": "Reliability",
+      "guid": "325ae524-ba34-4d46-a5e2-2139bd7bb012",
+      "id": "48.1.4",
+      "link": "https://learn.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-vnn-azure-load-balancer-configure?view=azuresql-vm&tabs=ilb"
+    },
+   {
+      "category": "SQL on VM",
+      "subcategory": "HADR",
       "text": "Carefully monitor resource limits to avoid unexpected restarts or failovers due to resource constraints",
       "waf": "Reliability",
       "guid": "75faa1ab-f39d-495d-94c7-c8919cb1f7d5",

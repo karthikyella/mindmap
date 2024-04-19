@@ -6,7 +6,7 @@
       "text": "Define Recovery Point Objective(RPO) and Recovery Time Objective (RTO) for your application and chose a suitable BCDR strategy for your databases.",
       "waf": "Reliability",
       "guid": "f7b95e06-e154-4e3a-a359-2829e6e20617",
-      "id": "48.4.1",
+      "id": "48.1.1",
       "link": "https://learn.microsoft.com/en-us/azure/reliability/disaster-recovery-overview#recovery-objectives"
     },
      {
@@ -15,7 +15,7 @@
       "text": "Place your VMs in an availability set or different availability zones.",
       "waf": "Reliability",
       "guid": "f7b95e06-e154-4e3a-a359-2829e6e20617",
-      "id": "48.4.1",
+      "id": "48.1.2",
       "link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/business-continuity-high-availability-disaster-recovery-hadr-overview?view=azuresql#high-availability-nodes-in-an-availability-set"
     },
     {
@@ -24,7 +24,7 @@
       "text": "Deploy your SQL Server VMs to multiple subnets whenever possible to avoid the dependency on an Azure Load Balancer or a distributed network name (DNN) to route traffic to your HADR solution. ( If one is implementing FCI or AG)",
       "waf": "Reliability",
       "guid": "3676af46-691f-4893-9ada-42323e138105",
-      "id": "48.4.2",
+      "id": "48.1.3",
       "link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-azure-portal-configure?view=azuresql&tabs=azure-cli"
     },
     {
@@ -33,7 +33,7 @@
       "text": "Configure cluster quorum voting to use 3 or more odd number of votes. Don't assign votes to DR regions.",
       "waf": "Reliability",
       "guid": "45911475-e38e-4530-accc-d979266bcca2",
-      "id": "48.1.2"
+      "id": "48.1.4"
       "link": "https://learn.microsoft.com/azure/azure-sql/virtual-machines/windows/hadr-cluster-best-practices?view=azuresql-vm&tabs=windows2012#quorum-voting"
     },
     {
@@ -42,7 +42,7 @@
       "text": "Change the cluster to less aggressive parameters to avoid unexpected outages from transient network failures or Azure platform maintenance. ( If one is implementing FCI or AG)",
       "waf": "Reliability",
       "guid": "325ae524-ba34-4d46-a5e2-2139bd7bb012",
-      "id": "48.1.4",
+      "id": "48.1.5",
       "link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/performance-guidelines-best-practices-checklist?view=azuresql-vm#hadr-configuration"
     },
    {
@@ -50,8 +50,8 @@
       "subcategory": "Cluster Configuration",
       "text": "When using the virtual network name (VNN) and Azure Load Balancer to connect to your HADR solution, specify MultiSubnetFailover = true in the connection string, even if your cluster only spans one subnet. ( If one is implementing FCI or AG)( If one is implementing FCI or AG)",
       "waf": "Reliability",
-      "guid": "325ae524-ba34-4d46-a5e2-2139bd7bb012",
-      "id": "48.1.4",
+      "guid": "83146210-6ccb-4583-aab2-f8406037831e",
+      "id": "48.1.6",
       "link": "https://learn.microsoft.com/azure/azure-sql/virtual-machines/windows/availability-group-vnn-azure-load-balancer-configure?view=azuresql-vm&tabs=ilb"
     },
    {
@@ -60,7 +60,7 @@
       "text": "Carefully monitor resource limits to avoid unexpected restarts or failovers due to resource constraints",
       "waf": "Reliability",
       "guid": "75faa1ab-f39d-495d-94c7-c8919cb1f7d5",
-      "id": "48.1.3",
+      "id": "48.1.7",
       "link": "https://learn.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/hadr-cluster-best-practices?view=azuresql&tabs=windows2012#resource-limits"
     },
        {
@@ -70,7 +70,7 @@
       "description": "Take a backup of the database and save it ",
       "waf": "Reliability",
       "guid": "a96c96ad-8840-48f3-9273-4c886ba28021",
-      "id": "48.1.1"
+      "id": "48.1.8"
     },
 
   ]

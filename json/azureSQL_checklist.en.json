@@ -2,46 +2,46 @@
   "items": [
     {
       "category": "Azure SQL DB",
-      "subcategory": "Backup",
-      "text": "Automatics PITR (Point in Time) Backups",
-      "description": "What type of Storage Redundancy do you want? LRS OR GRS?",
+      "subcategory": "High Availability",
+      "text": "Enable zone redundancy where available for the database or elastic pool to ensure resiliency for zonal failures",
       "waf": "Reliability",
       "guid": "985b859c-773e-47e2-9162-3b775a917e1f",
       "id": "48.3.1",
-      "link": "https://learn.microsoft.com/azure/azure-sql/database/automated-backups-overview?view=azuresql#backup-storage-redundancy"
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla?view=azuresql&tabs=azure-powershell#zone-redundant-availability"
     },
     {
       "category": "Azure SQL DB",
-      "subcategory": "Backup",
-      "text": "Long Term Retention",
+      "subcategory": "Resiliency",
+      "text": "Incorporate retry logic in the application to handle transient errors.",
       "waf": "Reliability",
       "guid": "348ff364-d27d-442e-abbb-c868155abb91",
       "id": "48.3.2",
-      "link": "https://learn.microsoft.com/security/benchmark/azure/mcsb-asset-management#am-2-use-only-approved-services"
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/develop-overview?view=azuresql#resiliency"
     },
     {
       "category": "Azure SQL DB",
-      "subcategory": "Backup",
-      "text": "Geo-Backup",
+      "subcategory": "Maintenance Windows",
+      "text": "Use maintenance windows to make impactful maintenance events predictable and less disruptive.",
       "waf": "Reliability",
       "guid": "64e9909a-e28c-484c-93b6-b7808bafe6c4",
       "id": "48.3.3",
-      "link": "https://learn.microsoft.com/azure/governance/policy/overview"
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/maintenance-window?view=azuresql"
     },
     {
       "category": "Azure SQL DB",
-      "subcategory": "BCDR",
-      "text": "Failover Groups",
+      "subcategory": "Resiliency",
+      "text": "Test application fault resiliency by manually triggering a failover to see resiliency in action.",
       "waf": "Reliability",
       "guid": "2149d413-a923-4c35-94d1-1028ac6aae01",
       "id": "48.3.4",
-      "link": "https://learn.microsoft.com/azure/governance/policy/overview#azure-rbac-permissions-in-azure-policy"
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-sla?view=azuresql&tabs=azure-powershell#testing-application-fault-resiliency"
     },
     {
       "category": "Azure SQL DB",
       "subcategory": "BCDR",
-      "text": "Geo-Replication",
-      "description": "Use Active Geo-Replication to create a readable secondary in a separate region",
+      "text": "Enable failover groups for a group of databases.",
+      "description": "Use the read-write and read-only listener endpoints in your application connection string so applications automatically connect to whichever server and database is primary.
+       Set the failover policy to customer managed.",
       "waf": "Reliability",
       "guid": "e6a84de5-df43-4d29-a248-1718d5d1e5f6",
       "id": "48.3.5",
@@ -50,12 +50,65 @@
     {
       "category": "Azure SQL DB",
       "subcategory": "BCDR",
-      "text": "Maintenance Windows",
+      "text": "Alternatively to failover groups, you can enable active geo-replication to have a readable secondary database in a different Azure region.",
+      "description":"Ensure that the geo-secondary database is created with the same service tier, compute tier (provisioned or serverless) and compute size (DTUs or vCores) as the primary database.",
       "waf": "Reliability",
       "guid": "25659e35-580e-4782-99c9-31212d027fe4",
       "id": "48.3.6",
-      "link": "https://learn.microsoft.com/azure/automation/automation-solution-vm-management-config"
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql"
     }
+   {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": "When scaling up, scale up the geo-secondary first, and then scale up the primary.When scaling down, reverse the order: scale down the primary first, and then scale down the secondary.",
+      "waf": "Reliability",
+      "guid": "25659e35-580e-4782-99c9-31212d027fe5",
+      "id": "48.3.7",
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql#upgrading-or-downgrading-primary-database"
+    }
+
+   {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": "Monitor lag with respect to Recovery Point Objective (RPO) by using the replication_lag_sec column of the sys.dm_geo_replication_link_status dynamic management view (DMV) on the primary database.",
+      "description": "The DMV shows lag in seconds between the transactions committed on the primary and hardened to the transaction log on the secondary. For example, assume the lag is one second at a point in time, if the primary is impacted by an outage and a geo-failover is initiated at that point in time, transactions committed in the last second will be lost.",
+      "waf": "Reliability",
+      "guid": "25659e35-580e-4782-99c9-31212d027fe6",
+      "id": "48.3.8",
+      "link": "https://learn.microsoft.com/en-us/sql/relational-databases/system-dynamic-management-views/sys-dm-geo-replication-link-status-azure-sql-database?preserve-view=true&view=azuresqldb-current"
+    }
+
+    
+   {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": "If enabling failover groups or active geo-replication isn't possible, then consider setting the backup storage redundancy option to Geo-redundant backup storage to use the geo-restore capability.This option isn't available in regions with no region pair.",
+      "waf": "Reliability",
+      "guid": "25659e35-580e-4782-99c9-31212d027fe7",
+      "id": "48.3.9",
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-change-settings?view=azuresql&preserve-view=true&tabs=azure-portal#configure-backup-storage-redundancy"
+    }
+
+       {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": "Frequently plan and execute disaster recovery drills so you're better prepared in the event of a real outage.",
+      "waf": "Reliability",
+      "guid": "25659e35-580e-4782-99c9-31212d027fe8",
+      "id": "48.3.10",
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/disaster-recovery-drills?view=azuresql"
+    }
+
+    {
+      "category": "Azure SQL DB",
+      "subcategory": "BCDR",
+      "text": " Have well-defined steps documented and tested to ensure a smooth recovery in case of an outage. ",
+      "waf": "Reliability",
+      "guid": "25659e35-580e-4782-99c9-31212d027fe8",
+      "id": "48.3.11",
+      "link": "https://learn.microsoft.com/en-us/azure/azure-sql/database/high-availability-disaster-recovery-checklist?view=azuresql#prepare-secondary-for-an-outage"
+    }
+
   ]
 }
 
